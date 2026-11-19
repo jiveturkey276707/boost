@@ -1,0 +1,9 @@
+# Hand-picked Instagram and TikTok posts that play right inside your feed.
+# One post per line: the set name, a space, then the post's link.
+# Set names: morning, midmorning, noon, midafternoon, lateafternoon, evening, all
+# ("all" shows the post in every set). Lines starting with # are ignored.
+# To get a link: in the Instagram or TikTok app tap Share > Copy link.
+#
+# Examples (delete the # to turn one on):
+# morning https://www.instagram.com/p/POSTCODE/
+# evening https://www.tiktok.com/@kevonstagetoktok/video/1234567890123456789

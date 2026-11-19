@@ -1,0 +1,10 @@
+{
+  "_note": "YouTube handles (without the @) whose newest videos play in each set. 'always' shows up in every set. Edit freely; the update job picks up changes on its next run.",
+  "always": ["garyvee", "lofigirl"],
+  "morning": ["life.uncontained", "skoteoutdoors", "blackbirdcoop"],
+  "midmorning": ["carwow", "DougDeMuro", "TheStraightPipes", "supercarblondie"],
+  "noon": ["bingingwithbabish", "altonbrown", "sortedfood", "goodmythicalmorning"],
+  "midafternoon": ["ceciliablomdahl", "greenergrass", "trektrendy", "downielive", "emmacruises"],
+  "lateafternoon": ["nike"],
+  "evening": ["joescott", "brightsunfilms", "StarTalk", "AllTheSmoke"]
+}

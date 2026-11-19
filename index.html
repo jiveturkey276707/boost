@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Boost Feed</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Boost">
+<meta name="theme-color" content="#141210">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: sticky time-of-day rail, poster-style slot hero, grid of tall tap-out cards. Single dark look by choice. */
+:root{
+  color-scheme:dark;
+  --bg:#141210; --panel:#1f1b17; --line:#3a332b; --fg:#f4ede4; --muted:#a8998a;
+  --gold:#f2b233; --ink:#141210;
+  --display:"Anton","Impact","Arial Narrow",sans-serif;
+  --body:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1100px;margin:0 auto}
+.rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+  display:flex;gap:6px;overflow-x:auto;padding-block:12px;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:999px;
+  padding:7px 13px;font:600 13px var(--body);cursor:pointer;display:flex;gap:7px;align-items:baseline}
+.chip small{font:500 11px var(--mono);color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.chip[aria-pressed="true"] small{color:var(--ink)}
+.chip:focus-visible,.card:focus-visible,.btn:focus-visible,.crew a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.hero{padding-block:26px 18px;display:flex;flex-wrap:wrap;gap:16px;align-items:end;justify-content:space-between}
+.hero-txt{min-width:0}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(46px,11vw,104px);line-height:.9;margin:6px 0 10px;text-transform:uppercase;letter-spacing:.01em;text-wrap:balance}
+.hype{margin:0;color:var(--muted);max-width:52ch;font-size:16px}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:0;border-radius:10px;padding:12px 16px;font:800 14px var(--body);cursor:pointer;letter-spacing:.02em}
+.btn.primary{background:var(--gold);color:var(--ink)}
+.btn.ghost{background:var(--panel);color:var(--fg);border:1px solid var(--line)}
+.meta{font:500 12px var(--mono);color:var(--muted);margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.card{position:relative;display:flex;flex-direction:column;justify-content:space-between;min-height:250px;border-radius:14px;
+  padding:16px;color:#fff;text-decoration:none;overflow:hidden;isolation:isolate;transition:transform .18s ease}
+.card:hover{transform:translateY(-3px)}
+.card::after{content:"";position:absolute;inset:0;z-index:-1;background:
+  radial-gradient(120% 80% at 100% 0%,rgba(255,255,255,.22),transparent 55%),
+  repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 2px,transparent 2px 14px)}
+.card .kind{align-self:flex-start;font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;background:rgba(0,0,0,.35);padding:4px 8px;border-radius:6px}
+.card .big{font-family:var(--display);font-size:clamp(30px,6vw,40px);line-height:.95;text-transform:uppercase;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.35)}
+.card .sub{font-size:13px;opacity:.9;margin-top:6px}
+.card.seen{filter:saturate(.45) brightness(.8)}
+.card.seen .kind::after{content:" · seen"}
+.crew{margin-top:26px;border-top:1px solid var(--line);padding-top:16px}
+.crew h2{font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+#crewLinks{display:flex;flex-direction:column;gap:14px}
+.grp>div{display:flex;flex-wrap:wrap;gap:8px}
+.grp h3{margin:0 0 8px;font:600 14px var(--body);color:var(--fg)}
+.crew a{color:var(--fg);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:7px 11px;font-size:13px}
+.crew a b{color:var(--gold);font-weight:600}
+.foot{margin-top:30px;font:500 12px var(--mono);color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+
+.feeds{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.feeds a{display:flex;flex-direction:column;gap:2px;text-decoration:none;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:0}
+.feeds a b{font:800 14px var(--body)}
+.feeds a small{font:500 11px var(--mono);color:var(--muted)}
+.feeds a:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.sec{margin:6px 0 26px}
+.sec h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:28px;letter-spacing:.02em;margin:0 0 4px}
+.sec .note{font:500 12px var(--mono);color:var(--muted);margin:0 0 12px}
+.drops{display:flex;flex-direction:column;gap:16px}
+.longs{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.shorts{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;scrollbar-width:thin}
+.shorts .vid{flex:0 0 min(46vw,220px);scroll-snap-align:start}
+.vid.short .frame,.vid.short iframe{aspect-ratio:9/16}
+.vid{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.vid .frame{position:relative;aspect-ratio:16/9;max-width:100%;background:#000;border:0;padding:0;cursor:pointer;display:block;width:100%}
+.vid .frame img{width:100%;height:100%;object-fit:cover;display:block}
+.vid .frame .play{position:absolute;inset:auto auto 10px 10px;background:var(--gold);color:var(--ink);font:800 12px var(--body);padding:6px 10px;border-radius:8px;letter-spacing:.04em}
+.vid .frame:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.vid iframe{width:100%;aspect-ratio:16/9;border:0;display:block}
+.vid .cap{padding:10px 12px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.vid .cap b{font:600 14px/1.3 var(--body);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.vid .cap small{font:500 11px var(--mono);color:var(--muted)}
+.empty{background:var(--panel);border:1px dashed var(--line);border-radius:14px;padding:16px;color:var(--muted)}
+.picks{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;align-items:start}
+.picks>div{min-width:0;overflow:hidden}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav class="rail" id="rail" aria-label="Boost times"></nav>
+  <header class="hero">
+    <div class="hero-txt">
+      <div class="eyebrow" id="eyebrow"></div>
+      <h1 id="title"></h1>
+      <p class="hype" id="hype"></p>
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="surprise" type="button">Surprise me</button>
+      <button class="btn ghost" id="shuffle" type="button">Shuffle this set</button>
+    </div>
+  </header>
+  <nav class="feeds" aria-label="My feeds">
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener"><b>My Instagram feed</b><small>@jive_turkey.276707</small></a>
+    <a href="https://www.tiktok.com/following" target="_blank" rel="noopener"><b>My TikTok feed</b><small>@jive_turkey.276707</small></a>
+  </nav>
+  <section class="sec" id="dropsSec">
+    <h2>Fresh drops</h2>
+    <p class="note" id="dropsNote">Newest videos from your channels. Tap to play here.</p>
+    <div class="drops" id="drops"></div>
+  </section>
+  <section class="sec" id="picksSec" hidden>
+    <h2>Your picks</h2>
+    <p class="note">Posts you saved in picks.txt.</p>
+    <div class="picks" id="picks"></div>
+  </section>
+  <h2 class="sec" style="font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:28px;margin:0 0 4px">Explore</h2>
+  <div class="meta" id="meta"></div>
+  <main class="grid" id="grid"></main>
+  <section class="crew" id="crew"><h2 id="crewTitle"></h2><div id="crewLinks"></div></section>
+  <p class="foot">Tip: edit channels.json to change which YouTube channels play, and picks.txt to add Instagram or TikTok posts. New picks every day. Tap a card to open the photos or video. Cards you've opened today fade out.</p>
+</div>
+
+<script>
+const yt=q=>"https://www.youtube.com/results?search_query="+encodeURIComponent(q);
+const img=q=>"https://www.google.com/search?tbm=isch&q="+encodeURIComponent(q);
+const pin=q=>"https://www.pinterest.com/search/pins/?q="+encodeURIComponent(q);
+const rd=s=>"https://www.reddit.com/r/"+s+"/top/?t=week";
+const ig=t=>"https://www.instagram.com/explore/tags/"+t+"/";
+const ytc=h=>"https://www.youtube.com/@"+h;
+const tt=h=>"https://www.tiktok.com/@"+h;
+const W=(big,q,sub)=>({big,href:yt(q),kind:"Watch · YouTube",sub});
+const L=(big,q,sub)=>({big,href:img(q),kind:"Photos",sub});
+const P=(big,q,sub)=>({big,href:pin(q),kind:"Photos · Pinterest",sub});
+const R=(big,s,sub)=>({big,href:rd(s),kind:"Feed · Reddit",sub});
+const I=(big,t,sub)=>({big,href:ig(t),kind:"Feed · Instagram",sub});
+const X=(big,href,kind,sub)=>({big,href,kind,sub});
+
+const SLOTS=[
+ {id:"morning",chip:"Morning",time:"7:30",title:"Build the Empire",colors:["#7a5a12","#1c1408"],
+  hype:"Freedom of movement is the goal. Here's what it looks like when it's paid for.",
+  pool:[W("Luxury home tours","luxury home tour 2026","Walk through the finish line"),
+   W("Built from nothing","self made millionaire documentary","How regular people got there"),
+   W("Small business wins","small business success story documentary","Owners who made the jump"),
+   L("The view from the top","penthouse view luxury interior","Scroll the photos"),
+   P("Dream office","luxury home office design","Where the work gets done"),
+   W("Private aviation","private jet tour","How the other half flies"),
+   R("Amazing houses","AmazingHouses","Top of the week"),
+   W("Generational wealth","generational wealth family business documentary","Built to pass down"),
+   L("Lake house Michigan","luxury lake house Michigan","Close to home"),
+   W("Yacht walkthroughs","superyacht tour","On the water"),
+   P("Freedom lifestyle","luxury travel lifestyle aesthetic","Pin board"),
+   W("Consultants who made it","how I started my consulting business","Your path, already walked")],
+  crew:[["YouTube","life.uncontained","Lifestyle"],["YouTube","skoteoutdoors","Lifestyle"],["YouTube","blackbirdcoop","Lifestyle"]]},
+ {id:"midmorning",chip:"Mid-morning",time:"10:00",title:"New Metal",colors:["#8c1d18","#1a0b0a"],
+  hype:"Fresh sheet metal, new interiors, first drives.",
+  pool:[W("Audi RS e-tron GT","Audi RS e-tron GT review","Audi"),W("Audi RS6 Avant","Audi RS6 Avant performance review","Audi"),
+   W("VW ID. Buzz","VW ID Buzz review","Volkswagen"),W("Golf R","Volkswagen Golf R review","Volkswagen"),
+   W("Escalade IQ","Cadillac Escalade IQ review","Cadillac"),W("Cadillac Celestiq","Cadillac Celestiq","Cadillac"),
+   W("Electric G-Class","Mercedes G 580 EQ review","Mercedes"),W("Maybach","Mercedes Maybach review","Mercedes"),
+   W("Rivian R2","Rivian R2 review","Rivian"),W("Rivian R1S","Rivian R1S off road","Rivian"),
+   W("BMW M5 Touring","BMW M5 Touring review","BMW"),W("BMW XM","BMW XM review","BMW"),
+   W("Defender Octa","Land Rover Defender Octa review","Land Rover"),W("Range Rover SV","Range Rover SV review","Land Rover"),
+   W("Ferrari 12Cilindri","Ferrari 12Cilindri review","Exotic"),W("Lamborghini Revuelto","Lamborghini Revuelto review","Exotic"),
+   W("McLaren W1","McLaren W1","Exotic"),W("Porsche 911 GT3","Porsche 911 GT3 review","Exotic"),
+   R("Car photos","carporn","Top of the week"),I("Exotic cars","exoticcars","Feed"),
+   X("Car and Driver","https://www.caranddriver.com/","Read · Magazine","The magazine itself"),
+   L("Concept cars","2026 concept car auto show","Auto show floor")],
+  crew:[["TikTok","forrestsautoreviews"]]},
+ {id:"noon",chip:"Noon",time:"12:00",title:"Eat the World",colors:["#9b4a12","#1d1007"],
+  hype:"Lunch break, Bourdain style. Street food, markets, kitchens.",
+  pool:[W("No Reservations","Anthony Bourdain No Reservations full episode","Bourdain"),W("Parts Unknown","Anthony Bourdain Parts Unknown","Bourdain"),
+   W("Tokyo street food","Tokyo street food tour","Japan"),W("Lisbon food","Lisbon food tour","Portugal"),
+   W("Marrakech market","Marrakech food market tour","Northern Africa"),W("Istanbul eats","Istanbul street food","Middle East"),
+   W("Naples pizza","Naples pizza documentary","Italy"),W("Paris bistro","Paris bistro food tour","France"),
+   W("Vienna coffee house","Vienna coffee house culture","Austria"),W("Nordic kitchen","Nordic cuisine documentary","Scandinavia"),
+   W("Osaka food","Osaka food tour Dotonbori","Japan"),R("Food photos","FoodPorn","Top of the week"),
+   L("Night markets","Asian night market food","Photos")],
+  crew:[["YouTube","bingingwithbabish"],["YouTube","altonbrown"],["YouTube","sortedfood"],["YouTube","goodmythicalmorning"],["TikTok","wickdconfections"]]},
+ {id:"midafternoon",chip:"Mid-afternoon",time:"2:30",title:"Go Anywhere",colors:["#0e5a6b","#071a1f"],
+  hype:"Pick a spot on the map. This is where the freedom pays off.",
+  pool:[W("Svalbard","Svalbard 4K","Arctic"),W("Lofoten, Norway","Lofoten Norway 4K","Scandinavia"),
+   W("Portugal","Portugal travel 4K","Portugal"),W("Dolomites","Dolomites Italy 4K","Italy"),
+   W("Hallstatt","Hallstatt Austria 4K","Austria"),W("Bavaria","Bavaria Germany travel","Germany"),
+   W("Provence","Provence France travel","France"),W("New Zealand","New Zealand 4K drone","New Zealand"),
+   W("Bora Bora","Bora Bora overwater bungalow","South Pacific"),W("Kyoto","Kyoto travel 4K","Japan"),
+   W("Sahara","Sahara desert camp Morocco","Northern Africa"),W("AlUla","AlUla Saudi Arabia travel","Middle East"),
+   W("Great Barrier Reef","Great Barrier Reef 4K","Australia"),W("Canadian backcountry","Canadian wilderness cabin","Canada"),
+   W("Glacier Express","Glacier Express Switzerland train","Train"),W("Japan sleeper train","Japan sleeper train","Train"),
+   W("Rocky Mountaineer","Rocky Mountaineer train","Train"),W("Danube river cruise","Danube river cruise","River boat"),
+   W("Business class","business class review","Airlines"),W("Luxury cruise suite","luxury cruise ship suite tour","Cruise"),
+   R("Earth photos","EarthPorn","Top of the week"),L("Northern lights","northern lights Norway","Photos")],
+  crew:[["YouTube","ceciliablomdahl","Travel"],["YouTube","greenergrass","Travel"],["YouTube","trektrendy","Travel"],["YouTube","downielive","Travel"],["YouTube","emmacruises","Travel"]]},
+ {id:"lateafternoon",chip:"Late afternoon",time:"4:30",title:"Fresh Pairs",colors:["#3d3a8f","#0f0e24"],
+  hype:"New drops, rare pairs, fits that work.",
+  pool:[X("Nike SNKRS","https://www.nike.com/launch","Drops · Nike","Upcoming releases"),X("Nike new arrivals","https://www.nike.com/w/new-3n82y","Shop · Nike","Just dropped"),
+   W("Sneaker Shopping","Complex Sneaker Shopping","Complex"),R("Sneakers","Sneakers","Top of the week"),
+   L("Air Jordan 1","Air Jordan 1 retro on feet","Photos"),L("Air Max 1","Nike Air Max 1 on feet","Photos"),
+   L("Air Force 1","Nike Air Force 1 custom","Photos"),W("Sneaker unboxing","Nike sneaker unboxing 2026","Unboxings"),
+   P("Streetwear fits","mens streetwear outfit","Pin board"),P("90s hip hop fashion","90s hip hop fashion men","Pin board"),
+   I("Sneakerhead","sneakerhead","Feed"),R("Streetwear","streetwear","Top of the week"),
+   W("Sneaker collection tour","sneaker collection tour","Collections")],
+  crew:[]},
+ {id:"evening",chip:"Early evening",time:"6:30",title:"Golden Era",colors:["#6b2a5e","#1a0a17"],
+  hype:"Boom bap, live sets, and a laugh to close out the day.",
+  pool:[W("OutKast","OutKast live performance","Live"),W("A Tribe Called Quest","A Tribe Called Quest live","Live"),W("Nas","Nas live performance","Live"),
+   W("Busta Rhymes","Busta Rhymes live","Live"),W("Kendrick Lamar","Kendrick Lamar live performance","Live"),W("T.I.","T.I. live performance","Live"),
+   W("Clipse","Clipse live","Live"),W("Common","Common Tiny Desk","Live"),W("Mos Def","Mos Def live","Live"),
+   W("De La Soul","De La Soul live","Live"),W("Dead Prez","Dead Prez live","Live"),W("Gang Starr","Gang Starr live","Live"),
+   W("J. Cole","J. Cole live performance","Live"),W("Lauryn Hill","Lauryn Hill live","Live"),W("Wu-Tang Clan","Wu-Tang Clan live","Live"),
+   W("Missy Elliott","Missy Elliott live performance","Live"),W("Mobb Deep","Mobb Deep live","Live"),W("Erykah Badu","Erykah Badu live","Live"),
+   W("Pharoahe Monch","Pharoahe Monch live","Live"),W("Benny the Butcher","Benny the Butcher live","Live"),W("Conway the Machine","Conway the Machine live","Live"),
+   W("Fugees","Fugees live","Live"),
+   W("Dave Chappelle","Dave Chappelle stand up","Comedy"),W("Ali Siddiq","Ali Siddiq stand up","Comedy"),W("Roy Wood Jr.","Roy Wood Jr stand up","Comedy"),
+   W("Josh Johnson","Josh Johnson stand up","Comedy"),W("Mo Amer","Mo Amer stand up","Comedy"),W("Seth Meyers","Seth Meyers A Closer Look","Comedy"),
+   W("Marc Maron","Marc Maron stand up","Comedy"),W("Ricky Gervais","Ricky Gervais stand up","Comedy"),W("Michael Che","Michael Che stand up","Comedy"),
+   W("Kevin Hart","Kevin Hart stand up","Comedy"),W("Trevor Noah","Trevor Noah stand up","Comedy"),W("Tom Segura","Tom Segura stand up","Comedy"),
+   W("Ronny Chieng","Ronny Chieng stand up","Comedy"),W("John Mulaney","John Mulaney stand up","Comedy"),W("Neal Brennan","Neal Brennan stand up","Comedy"),
+   W("Romesh Ranganathan","Romesh Ranganathan stand up","Comedy"),W("KevOnStage","KevOnStage","Comedy")],
+  crew:[["TikTok","patrick.j.abdo","Music"],["TikTok","allthesmoke","Hoops & culture"],
+   ["TikTok","kevonstagetoktok","Comedy"],["TikTok","tonybamercomedy","Comedy"],["TikTok","carterandersoncomedy","Comedy"],["TikTok","drglaucomflecken","Comedy"],["TikTok","rossidwoods","Comedy"],["TikTok","luke.is.alive_","Comedy"],["TikTok","dangerfieldmedia1","Comedy"],["TikTok","winnie_thepooj","Comedy"],["TikTok","sheenamelwani","Comedy"],["TikTok","rebmasel","Comedy"],["TikTok","andr3wsky","Comedy"],
+   ["YouTube","joescott","Science & curiosity"],["YouTube","brightsunfilms","Science & curiosity"],["TikTok","toknerdytome","Science & curiosity"],["TikTok","astro_alexandra","Science & curiosity"],["TikTok","tilscience","Science & curiosity"],["TikTok","startalk","Science & curiosity"]]}
+];
+const C=(tag,colors)=>(big,q,sub,type)=>{const b=type==="pin"?P(big,q,sub):W(big,q,sub);b.kind=tag+" · "+(type==="pin"?"Pinterest":"YouTube");b.colors=colors;return b};
+const hu=C("Hustle",["#a36a00","#1d1203"]),zn=C("Calm",["#2f6656","#0a1a15"]),mf=C("Manifest",["#5b3f8c","#140e22"]),lx=C("Luxe",["#7a6440","#17120b"]);
+const CORE=[
+ [hu("Entrepreneur fuel","entrepreneur motivation speech","Get up and build"),hu("Les Brown","Les Brown motivation","Motivation"),hu("Eric Thomas","Eric Thomas motivation","Motivation"),
+  hu("How I Built This","How I Built This Guy Raz","Founder stories"),hu("Shark Tank wins","Shark Tank best pitches","Deals that changed lives"),hu("Day in the life","small business owner day in the life","Owners at work"),
+  hu("First-year lessons","first year in business lessons learned","Learn it cheaper"),hu("Solo consultant","solo consultant day in the life","Your lane"),hu("Bootstrapped","bootstrapped business documentary","No investors, still won"),
+  hu("Daymond John","Daymond John advice","From FUBU to Shark"),hu("Keep going","motivation for entrepreneurs when it gets hard","For the hard days"),
+  X("GaryVee",ytc("garyvee"),"Hustle · YouTube","Gary Vaynerchuk"),X("GaryVee",tt("garyvee"),"Hustle · TikTok","Gary Vaynerchuk")],
+ [zn("Zen garden","Japanese zen garden 4K ambience","Slow down"),zn("Rain on glass","rain on window ambience","Background calm"),zn("Lo-fi beats","lofi hip hop beats","Boom bap, chilled"),
+  zn("Kyoto temple","Kyoto temple ambience","Quiet hour"),zn("Fjord stillness","Norway fjord relaxing 4K","Breathe out"),zn("Forest sounds","forest sounds 4K","Reset"),
+  zn("Box breathing","5 minute box breathing","Five minutes"),zn("Ocean waves","ocean waves 4K relaxing","Reset"),zn("Alan Watts","Alan Watts lecture","Perspective"),
+  zn("Snow cabin","snowy cabin fireplace ambience","Cozy and quiet"),zn("Jazz cafe","jazz hop cafe ambience","Smooth")],
+ [mf("Morning affirmations","morning affirmations for success","Say it out loud"),mf("See it first","visualization meditation for goals","Guided"),mf("Vision board","vision board ideas wealth travel","Pin board","pin"),
+  mf("Abundance","abundance affirmations","Affirmations"),mf("Gratitude","gratitude meditation 10 minutes","Ten minutes"),mf("Law of attraction","law of attraction meditation","Guided"),
+  mf("Neville Goddard","Neville Goddard lecture","Classic"),mf("I am","I am affirmations wealth success","Affirmations"),mf("Future self","future self visualization","Guided"),
+  mf("Dream life board","dream life aesthetic","Pin board","pin")],
+ [lx("Five-star suites","luxury hotel suite tour","Check in"),lx("Aman resorts","Aman resort tour","Quiet luxury"),lx("Watch collection","luxury watch collection","Wrist game"),
+  lx("First class suite","first class suite review","Up front"),lx("Monaco","Monaco lifestyle","Riviera"),lx("Lake Como villa","Lake Como villa tour","Italy"),
+  lx("Safari lodge","luxury safari lodge","Africa"),lx("Luxury lifestyle","luxury lifestyle aesthetic","Pin board","pin"),lx("Overwater villa","Maldives overwater villa tour","Maldives"),
+  lx("Tailored","bespoke suit tailoring","Made to measure"),lx("Penthouse life","penthouse tour","High up")]
+];
+
+/* ---------- live videos + picks (self-hosted only) ---------- */
+let CH=null, FEED=null, PICKS=[];
+function dataUrl(file){
+  const host=location.hostname;
+  if(host.endsWith(".github.io")){const user=host.split(".")[0];const seg=location.pathname.split("/").filter(Boolean)[0];
+    const repo=seg&&!seg.includes(".")?seg:host;return `https://raw.githubusercontent.com/${user}/${repo}/main/${file}?t=${Date.now()}`}
+  return file+"?t="+Date.now();
+}
+async function getJSON(f){try{const r=await fetch(dataUrl(f),{cache:"no-store"});if(r.ok)return r.json()}catch(e){}
+  try{const r=await fetch(f+"?t="+Date.now());if(r.ok)return r.json()}catch(e){}return null}
+async function getText(f){try{const r=await fetch(dataUrl(f),{cache:"no-store"});if(r.ok)return r.text()}catch(e){}
+  try{const r=await fetch(f+"?t="+Date.now());if(r.ok)return r.text()}catch(e){}return ""}
+function ago(iso){const d=(Date.now()-new Date(iso))/864e5;if(d<1){const h=Math.max(1,Math.round(d*24));return h+"h ago"}if(d<30)return Math.round(d)+"d ago";return Math.round(d/30)+"mo ago"}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function vidTile(v){const d=document.createElement("div");d.className="vid"+(v.short?" short":"");
+  d.innerHTML=`<button class="frame" type="button" aria-label="Play ${esc(v.title)}"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg"><span class="play">▶ ${v.short?"SHORT":"PLAY"}</span></button>
+    <div class="cap"><b>${esc(v.title)}</b><small>${esc(v.ch)} · ${ago(v.published)}</small></div>`;
+  d.querySelector(".frame").onclick=e=>{const f=document.createElement("iframe");
+    f.src=`https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&playsinline=1&rel=0${v.short?"&loop=1&playlist="+v.id:""}`;
+    f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;f.title=v.title;
+    e.currentTarget.replaceWith(f)};
+  return d}
+function renderDrops(s){
+  const box=$("drops");box.innerHTML="";
+  if(!CH||!FEED){$("dropsNote").textContent="Loading videos…";return}
+  const handles=[...(CH.always||[]),...(CH[s.id]||[])];
+  let all=[];
+  handles.forEach(h=>{const c=FEED.channels&&FEED.channels[h];if(!c)return;
+    c.videos.forEach(v=>all.push({...v,ch:c.title||h,h}))});
+  all.sort((a,b)=>b.published.localeCompare(a.published));
+  const cap=(list,n,max)=>{const per={};return list.filter(v=>{per[v.h]=(per[v.h]||0)+1;return per[v.h]<=max}).slice(0,n)};
+  const shorts=cap(all.filter(v=>v.short),12,3);
+  const longs=cap(all.filter(v=>!v.short),shorts.length>=6?4:8,2);
+  if(!shorts.length&&!longs.length){box.innerHTML=`<div class="empty">No videos yet. They appear after the update job runs on GitHub (every 3 hours, or run it by hand from the Actions tab).</div>`;
+    $("dropsNote").textContent="Newest videos from your channels.";return}
+  $("dropsNote").textContent="Shorts first, then longer videos. Tap to play here."+(FEED.updated?` Updated ${ago(FEED.updated)}.`:"");
+  if(shorts.length){const row=document.createElement("div");row.className="shorts";shorts.forEach(v=>row.appendChild(vidTile(v)));box.appendChild(row)}
+  if(longs.length){const g=document.createElement("div");g.className="longs";longs.forEach(v=>g.appendChild(vidTile(v)));box.appendChild(g)}
+}
+let igLoaded=false, ttLoaded=false;
+function loadScript(src){const s=document.createElement("script");s.async=true;s.src=src;document.body.appendChild(s)}
+function renderPicks(s){
+  const mine=PICKS.filter(p=>p.set===s.id||p.set==="all");
+  $("picksSec").hidden=!mine.length;const box=$("picks");box.innerHTML="";
+  mine.forEach(p=>{const d=document.createElement("div");
+    if(/instagram\.com/.test(p.url)){d.innerHTML=`<blockquote class="instagram-media" data-instgrm-permalink="${esc(p.url)}" data-instgrm-version="14" style="margin:0;width:100%;min-width:0;max-width:540px"><a href="${esc(p.url)}" target="_blank" rel="noopener">Open on Instagram</a></blockquote>`}
+    else if(/tiktok\.com/.test(p.url)){const id=(p.url.match(/video\/(\d+)/)||[])[1]||"";
+      d.innerHTML=`<blockquote class="tiktok-embed" cite="${esc(p.url)}" data-video-id="${id}" style="margin:0;max-width:605px;min-width:0"><section><a href="${esc(p.url)}" target="_blank" rel="noopener">Open on TikTok</a></section></blockquote>`}
+    else d.innerHTML=`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.url)}</a>`;
+    box.appendChild(d)});
+  if(mine.some(p=>/instagram/.test(p.url))){if(igLoaded&&window.instgrm)window.instgrm.Embeds.process();else if(!igLoaded){igLoaded=true;loadScript("https://www.instagram.com/embed.js")}}
+  if(mine.some(p=>/tiktok/.test(p.url))){loadScript("https://www.tiktok.com/embed.js");ttLoaded=true}
+}
+async function loadLive(){
+  const [ch,feed,picks]=await Promise.all([getJSON("channels.json"),getJSON("feed.json"),getText("picks.txt")]);
+  CH=ch||{};FEED=feed||{channels:{}};
+  PICKS=picks.split(/\r?\n/).map(l=>l.trim()).filter(l=>l&&!l.startsWith("#")).map(l=>{const [set,...rest]=l.split(/\s+/);return{set:set.toLowerCase(),url:rest.join("")}}).filter(p=>p.url.startsWith("http"));
+  render();
+}
+const STARTS=[0,9,11.5,14,16,18]; // hour each slot takes over
+const PER=6;
+
+const today=new Date().toISOString().slice(0,10);
+const seenKey="boost-seen-"+today;
+let seen={};try{seen=JSON.parse(localStorage.getItem(seenKey)||"{}")}catch(e){}
+function saveSeen(){try{localStorage.setItem(seenKey,JSON.stringify(seen))}catch(e){}}
+
+function rng(seed){let h=2166136261;for(const c of seed){h^=c.charCodeAt(0);h=Math.imul(h,16777619)}return()=>{h^=h<<13;h^=h>>>17;h^=h<<5;return((h>>>0)%1e6)/1e6}}
+function pick(pool,seed){const r=rng(seed),a=pool.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a.slice(0,PER)}
+
+const $=id=>document.getElementById(id);
+let current, extra=0;
+
+function nowSlot(){const d=new Date(),h=d.getHours()+d.getMinutes()/60;let i=0;STARTS.forEach((s,k)=>{if(h>=s)i=k});return SLOTS[i].id}
+
+function render(){
+  const s=SLOTS.find(x=>x.id===current)||SLOTS[0];
+  $("rail").innerHTML="";
+  SLOTS.forEach(x=>{const b=document.createElement("button");b.className="chip";b.type="button";
+    b.setAttribute("aria-pressed",x.id===s.id);b.innerHTML=`${x.chip}<small>${x.time}</small>`;
+    b.onclick=()=>{location.hash=x.id};$("rail").appendChild(b);
+    if(x.id===s.id)requestAnimationFrame(()=>b.scrollIntoView({inline:"center",block:"nearest"}))});
+  $("eyebrow").textContent=`${s.chip} boost · ${s.time}`;
+  $("title").textContent=s.title;$("hype").textContent=s.hype;
+  const items=pick(s.pool,today+s.id+extra);
+  CORE.forEach((pool,k)=>{const c=pick(pool,today+s.id+"core"+k+extra)[0];items.splice(1+k*2,0,c)});
+  $("meta").textContent=`${PER} ${s.chip.toLowerCase()} picks + hustle, calm, manifest and luxe · ${new Date().toLocaleDateString(undefined,{weekday:"long",month:"short",day:"numeric"})}`;
+  $("grid").innerHTML="";
+  items.forEach((it,i)=>{const a=document.createElement("a");a.className="card"+(seen[it.href]?" seen":"");
+    a.href=it.href;a.target="_blank";a.rel="noopener";
+    const ang=120+((i*37)%80);
+    const col=it.colors||s.colors;
+    a.style.background=`linear-gradient(${ang}deg,${col[0]},${col[1]})`;
+    a.innerHTML=`<span class="kind">${it.kind}</span><div><div class="big">${it.big}</div>${it.sub?`<div class="sub">${it.sub}</div>`:""}</div>`;
+    a.addEventListener("click",()=>{seen[it.href]=1;saveSeen();a.classList.add("seen")});
+    $("grid").appendChild(a)});
+  renderDrops(s);renderPicks(s);
+  $("crew").hidden=false;
+  $("crewTitle").textContent="Your follows";
+  const groups={};[["YouTube","garyvee","Hustle"],["TikTok","garyvee","Hustle"]].concat(s.crew).forEach(([p,h,g])=>{(groups[g||"Your follows"]=groups[g||"Your follows"]||[]).push([p,h])});
+  $("crewLinks").innerHTML=Object.entries(groups).map(([g,list])=>`<div class="grp"><h3>${g}</h3><div>${list.map(([p,h])=>`<a href="${p==="TikTok"?tt(h):ytc(h)}" target="_blank" rel="noopener"><b>${p}</b> @${h}</a>`).join("")}</div></div>`).join("");
+}
+function route(){const h=location.hash.slice(1);current=SLOTS.some(s=>s.id===h)?h:nowSlot();extra=0;render();window.scrollTo(0,0)}
+$("shuffle").onclick=()=>{extra++;render()};
+$("surprise").onclick=()=>{const all=SLOTS.flatMap(s=>s.pool).concat(CORE.flat());const r=all[Math.floor(Math.random()*all.length)];seen[r.href]=1;saveSeen();
+  const a=document.createElement("a");a.href=r.href;a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove();render()};
+addEventListener("hashchange",route);
+route();
+loadLive();
+</script>
+
+</body>
+</html>
