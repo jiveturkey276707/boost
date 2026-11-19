@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:35:05+00:00",
+ "updated": "2026-11-19T19:09:38+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "_sEOcy_38yM",
+     "title": "The new KFC ad got people shook 😂",
+     "published": "2026-11-19T16:20:01+00:00",
+     "short": true
+    },
+    {
      "id": "5haPz23Seic",
      "title": "Highway poultry chaos",
      "published": "2026-11-19T02:32:18+00:00",
@@ -375,12 +381,6 @@
      "id": "veWduJOv0RI",
      "title": "Lamb and pet treats are back!",
      "published": "2026-11-12T01:31:53+00:00",
-     "short": true
-    },
-    {
-     "id": "3rNnGWtEuHA",
-     "title": "Our turkeys are almost ready!",
-     "published": "2026-11-11T16:44:38+00:00",
      "short": true
     }
    ]
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "uyvkUl7Nweo",
+     "title": "Another Luxury Sedan Has Been Cancelled",
+     "published": "2026-11-19T19:00:13+00:00",
+     "short": true
+    },
+    {
      "id": "D869VqFeJCY",
      "title": "First Full Tour of The All New Temerario Spyder!",
      "published": "2026-11-19T06:00:35+00:00",
@@ -759,12 +765,6 @@
      "id": "zAzoUwRfpec",
      "title": "Is It Too Soon For a Gallardo Restomod?",
      "published": "2026-11-11T19:00:07+00:00",
-     "short": true
-    },
-    {
-     "id": "L-ZNtFj-2dI",
-     "title": "I Bought A (Different) Ford GT",
-     "published": "2026-11-10T19:00:15+00:00",
      "short": true
     }
    ]
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "fs4QEUw8RDw",
+     "title": "Stop dwelling - do the next fucking thing",
+     "published": "2026-11-19T17:37:19+00:00",
+     "short": true
+    },
+    {
      "id": "mChuO4IwvX4",
      "title": "I never think about going viral....",
      "published": "2026-11-18T21:00:12+00:00",
@@ -1048,12 +1054,6 @@
      "title": "Keep going!",
      "published": "2026-11-14T18:45:41+00:00",
      "short": true
-    },
-    {
-     "id": "0qjeI_bd8rc",
-     "title": "What to do after your kids mess up",
-     "published": "2026-11-13T23:30:37+00:00",
-     "short": true
     }
    ]
   },
@@ -1061,6 +1061,12 @@
    "id": "UC4PooiX37Pld1T8J5SYT-SQ",
    "title": "Good Mythical Morning",
    "videos": [
+    {
+     "id": "nrNPMqfApIU",
+     "title": "What was that??",
+     "published": "2026-11-19T18:00:04+00:00",
+     "short": true
+    },
     {
      "id": "x6c1Y1gQcRQ",
      "title": "Unboxing Other People's Lost Mail",
@@ -1144,12 +1150,6 @@
      "title": "We Got Prostate Exams Together",
      "published": "2026-11-10T11:00:39+00:00",
      "short": false
-    },
-    {
-     "id": "nckYnVDR8Wc",
-     "title": "Rhett has an announcement",
-     "published": "2026-11-09T18:00:12+00:00",
-     "short": true
     }
    ]
   },
@@ -1734,6 +1734,12 @@
    "title": "Sorted Food",
    "videos": [
     {
+     "id": "5TXazmOduNo",
+     "title": "Is your morning coffee on borrowed time?",
+     "published": "2026-11-19T18:00:17+00:00",
+     "short": true
+    },
+    {
      "id": "JP7eGw-7xuY",
      "title": "Taste Testing MORE Hilarious ALDI DUPES vs Original Brands",
      "published": "2026-11-18T17:00:34+00:00",
@@ -1815,12 +1821,6 @@
      "id": "hN_jM5_eooc",
      "title": "Pro Chef BAFFLED By Forgotten Ancient Recipe",
      "published": "2026-11-04T17:00:34+00:00",
-     "short": false
-    },
-    {
-     "id": "YT63dm17nNA",
-     "title": "Chefs Try STREET FOOD Gadgets",
-     "published": "2026-11-02T17:00:37+00:00",
      "short": false
     }
    ]
@@ -1926,6 +1926,12 @@
    "title": "Supercar Blondie",
    "videos": [
     {
+     "id": "iLawmE5lGY8",
+     "title": "Massive Helicopter Saw!",
+     "published": "2026-11-19T15:54:54+00:00",
+     "short": true
+    },
+    {
      "id": "FkiY4U1HeoU",
      "title": "Just How Big Is The GTA 6 map? 😍 (Actual Gameplay)",
      "published": "2026-11-19T06:19:05+00:00",
@@ -2008,12 +2014,6 @@
      "title": "The Fiat Multiplay Has A Built In Seat For Your Dog! 🐕",
      "published": "2026-10-29T13:05:26+00:00",
      "short": true
-    },
-    {
-     "id": "ye0CkmoVU-M",
-     "title": "This 2,000HP Yacht is on EVERY millionaire's wishlist... 🤯",
-     "published": "2026-10-27T09:53:24+00:00",
-     "short": true
     }
    ]
   },
@@ -2021,6 +2021,12 @@
    "id": "UC86SBFIAgnYL3ll2ZDgmsuA",
    "title": "TheStraightPipes",
    "videos": [
+    {
+     "id": "oQrlco3SfxY",
+     "title": "WE GOT A MUSCLE ELANTRA AFTER GTA 6!",
+     "published": "2026-11-19T17:05:23+00:00",
+     "short": false
+    },
     {
      "id": "__xIjQMRUpM",
      "title": "RIP TYPE R! 2026 Toyota Corolla GR MN Corolla Review",
@@ -2103,12 +2109,6 @@
      "id": "349KswMyA1w",
      "title": "NEW! 27 VW Atlas Review",
      "published": "2026-10-06T12:59:11+00:00",
-     "short": false
-    },
-    {
-     "id": "cmRWDNv66Ew",
-     "title": "Manual 07 Aston Martin V8 Vantage Review",
-     "published": "2026-10-03T11:59:01+00:00",
      "short": false
     }
    ]
