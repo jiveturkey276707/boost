@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:09:38+00:00",
+ "updated": "2026-11-19T21:58:28+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -102,6 +102,12 @@
    "title": "Alton Brown",
    "videos": [
     {
+     "id": "-CzeKNZ343E",
+     "title": "It's almost time...",
+     "published": "2026-11-19T19:20:30+00:00",
+     "short": true
+    },
+    {
      "id": "LFYTDmT-y74",
      "title": "Alton Brown Cooks Food | Episode 45: Mac To Basics",
      "published": "2026-11-14T14:00:24+00:00",
@@ -184,12 +190,6 @@
      "title": "Alton Brown Cooks Food | Episode 32: Shell Game",
      "published": "2026-07-11T13:00:06+00:00",
      "short": false
-    },
-    {
-     "id": "Ka6LgwqNAss",
-     "title": "Alton Brown Cooks Food | Episode 31: Side Game",
-     "published": "2026-07-04T13:00:37+00:00",
-     "short": false
     }
    ]
   },
@@ -197,6 +197,12 @@
    "id": "UCJHA_jMfCvEnv-3kRjTCQXw",
    "title": "Binging with Babish",
    "videos": [
+    {
+     "id": "2k2EJc5mjmc",
+     "title": "Binging with Babish Live Stream",
+     "published": "2026-11-19T21:09:25+00:00",
+     "short": false
+    },
     {
      "id": "PL-I1v6aWgQ",
      "title": "Searching GTA VI for Food to Recreate",
@@ -279,12 +285,6 @@
      "id": "zVorYnJjmrQ",
      "title": "Popcorn: reimagined",
      "published": "2026-07-24T19:00:23+00:00",
-     "short": true
-    },
-    {
-     "id": "QAQA08ll34Q",
-     "title": "The ultimate summer fruit salad!",
-     "published": "2026-07-22T19:00:01+00:00",
      "short": true
     }
    ]
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "W5plGx6vVsU",
+     "title": "Best advice for 18 yo",
+     "published": "2026-11-19T20:00:23+00:00",
+     "short": true
+    },
+    {
      "id": "fs4QEUw8RDw",
      "title": "Stop dwelling - do the next fucking thing",
      "published": "2026-11-19T17:37:19+00:00",
@@ -1047,12 +1053,6 @@
      "id": "KVPta50edrE",
      "title": "Blaming them wont change your life",
      "published": "2026-11-14T19:45:05+00:00",
-     "short": true
-    },
-    {
-     "id": "UHwXwoF3Rbw",
-     "title": "Keep going!",
-     "published": "2026-11-14T18:45:41+00:00",
      "short": true
     }
    ]
@@ -1741,7 +1741,7 @@
     },
     {
      "id": "JP7eGw-7xuY",
-     "title": "Taste Testing MORE Hilarious ALDI DUPES vs Original Brands",
+     "title": "Hilarious ALDI DUPES vs Original Brands",
      "published": "2026-11-18T17:00:34+00:00",
      "short": false
     },
@@ -1830,6 +1830,18 @@
    "title": "StarTalk",
    "videos": [
     {
+     "id": "gk2ZXNpT-BI",
+     "title": "Could Black Holes Hold the Key to Reality? @jannalevinastro tells us more",
+     "published": "2026-11-19T19:24:53+00:00",
+     "short": true
+    },
+    {
+     "id": "kRR6O5X3KsM",
+     "title": "Black Holes, In Theory… with Janna Levin",
+     "published": "2026-11-19T19:13:49+00:00",
+     "short": false
+    },
+    {
      "id": "ss-znttnHY4",
      "title": "Are Parents Getting in the Way of Science?",
      "published": "2026-11-18T18:05:58+00:00",
@@ -1905,18 +1917,6 @@
      "id": "zTEA3khW_0w",
      "title": "StarTalk is 6 MILLION Strong! 🚀",
      "published": "2026-10-29T15:00:37+00:00",
-     "short": true
-    },
-    {
-     "id": "ZMxgy4xU5b4",
-     "title": "Forget ghosts! Your own biology is the real horror story 💀",
-     "published": "2026-10-28T19:16:43+00:00",
-     "short": true
-    },
-    {
-     "id": "Nyjp7vujwV8",
-     "title": "What If Our Big Bang Wasn't the Only One?",
-     "published": "2026-10-27T22:22:56+00:00",
      "short": true
     }
    ]
