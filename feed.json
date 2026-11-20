@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:58:28+00:00",
+ "updated": "2026-11-20T01:17:19+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -198,15 +198,15 @@
    "title": "Binging with Babish",
    "videos": [
     {
-     "id": "2k2EJc5mjmc",
-     "title": "Binging with Babish Live Stream",
-     "published": "2026-11-19T21:09:25+00:00",
-     "short": false
-    },
-    {
      "id": "PL-I1v6aWgQ",
      "title": "Searching GTA VI for Food to Recreate",
      "published": "2026-11-18T16:09:18+00:00",
+     "short": false
+    },
+    {
+     "id": "2k2EJc5mjmc",
+     "title": "Binging with Babish Live Stream",
+     "published": "2026-11-19T21:09:25+00:00",
      "short": false
     },
     {
@@ -294,6 +294,18 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "jZSe6yBOEu0",
+     "title": "Reminder: even the “progressives” have no idea what it means to be part of a human family",
+     "published": "2026-11-20T00:15:50+00:00",
+     "short": false
+    },
+    {
+     "id": "LzyFJKxWq6k",
+     "title": "None of my childless friends are like this… because they aren’t children themselves 😂",
+     "published": "2026-11-19T22:05:39+00:00",
+     "short": true
+    },
+    {
      "id": "_sEOcy_38yM",
      "title": "The new KFC ad got people shook 😂",
      "published": "2026-11-19T16:20:01+00:00",
@@ -369,18 +381,6 @@
      "id": "kQF7JVl8LNE",
      "title": "Staring at the Bog Witch…",
      "published": "2026-11-13T01:29:57+00:00",
-     "short": true
-    },
-    {
-     "id": "0x_nWbEtUmg",
-     "title": "How to talk to a woman at the gym",
-     "published": "2026-11-12T14:26:58+00:00",
-     "short": true
-    },
-    {
-     "id": "veWduJOv0RI",
-     "title": "Lamb and pet treats are back!",
-     "published": "2026-11-12T01:31:53+00:00",
      "short": true
     }
    ]
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "m34rQHDNhqQ",
+     "title": "Being a batter person is more important than having money!",
+     "published": "2026-11-19T23:00:30+00:00",
+     "short": true
+    },
+    {
      "id": "W5plGx6vVsU",
      "title": "Best advice for 18 yo",
      "published": "2026-11-19T20:00:23+00:00",
@@ -1047,12 +1053,6 @@
      "id": "v927d5r1t1w",
      "title": "Everything takes longer than you think",
      "published": "2026-11-14T22:45:15+00:00",
-     "short": true
-    },
-    {
-     "id": "KVPta50edrE",
-     "title": "Blaming them wont change your life",
-     "published": "2026-11-14T19:45:05+00:00",
      "short": true
     }
    ]
@@ -1542,6 +1542,12 @@
    "title": "Nike",
    "videos": [
     {
+     "id": "TG8g38nYlTA",
+     "title": "2027. Formula 1 x Nike. There’s more fast out there.",
+     "published": "2026-11-19T23:58:15+00:00",
+     "short": true
+    },
+    {
      "id": "SmSovuG0kBw",
      "title": "What If? | Nike",
      "published": "2026-11-16T21:31:45+00:00",
@@ -1623,12 +1629,6 @@
      "id": "jyRLtaYSuFU",
      "title": "Congratulations on No. 5",
      "published": "2026-10-08T20:37:17+00:00",
-     "short": true
-    },
-    {
-     "id": "XgH-ubq6hf0",
-     "title": "Geared for precision.",
-     "published": "2026-10-08T14:32:37+00:00",
      "short": true
     }
    ]
