@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:10:28+00:00",
+ "updated": "2026-11-20T21:56:52+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -486,6 +486,12 @@
    "title": "carwow",
    "videos": [
     {
+     "id": "mCoxbhjGy0g",
+     "title": "Koenigsegg Regera vs Koenigsegg Jesko Absolut!",
+     "published": "2026-11-20T19:04:19+00:00",
+     "short": true
+    },
+    {
      "id": "iM5VAYmxoUA",
      "title": "Did this Luxury Chinese SUV just KILL the UK car industry?",
      "published": "2026-11-19T12:34:23+00:00",
@@ -567,12 +573,6 @@
      "id": "XJV1FnyDSU4",
      "title": "Which car has the best brakes?! 🤔",
      "published": "2026-11-10T19:04:09+00:00",
-     "short": true
-    },
-    {
-     "id": "Ibhf3lSnfXc",
-     "title": "How many boxes can you fit in this Šhhhkoda Kodiaq?",
-     "published": "2026-11-09T19:04:16+00:00",
      "short": true
     }
    ]
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "xWvkrHcmYVI",
+     "title": "Audi Nuvolari Pricing Has Been Announced!",
+     "published": "2026-11-20T19:00:00+00:00",
+     "short": true
+    },
+    {
      "id": "UFymq8dJlJI",
      "title": "$29,990 Tesla Cybercab! New Cheap Manual Truck? Baby Defender Concept! THIS CAR POD! EP138",
      "published": "2026-11-20T14:55:27+00:00",
@@ -760,12 +766,6 @@
      "title": "The New 2027 Rivian R1S Is a Huge Step Up",
      "published": "2026-11-12T19:00:00+00:00",
      "short": true
-    },
-    {
-     "id": "HTDlX5I9EXI",
-     "title": "The Rivian R2 Is Going to Be a Smash Hit",
-     "published": "2026-11-12T16:55:05+00:00",
-     "short": false
     }
    ]
   },
