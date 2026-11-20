@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:15:36+00:00",
+ "updated": "2026-11-20T13:23:34+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -870,6 +870,12 @@
    "title": "Emma Cruises",
    "videos": [
     {
+     "id": "FdXhvu8rBp0",
+     "title": "Got a Cruise Question? Let's Chat!",
+     "published": "2026-11-20T10:59:23+00:00",
+     "short": false
+    },
+    {
      "id": "mL4xEZwOcf0",
      "title": "I've Just Disembarked a Sailing Ship Cruise! - Let's Chat",
      "published": "2026-11-13T18:03:13+00:00",
@@ -951,12 +957,6 @@
      "id": "wuDEYbUDfG8",
      "title": "I Spent 8 Days on a Cruise Ship Built for 9,000 People",
      "published": "2026-09-10T13:10:48+00:00",
-     "short": false
-    },
-    {
-     "id": "0UiHaCX2i8E",
-     "title": "My Cabin Faced INSIDE the World’s Biggest Cruise Ship",
-     "published": "2026-08-24T18:57:27+00:00",
      "short": false
     }
    ]
@@ -1062,6 +1062,12 @@
    "title": "Good Mythical Morning",
    "videos": [
     {
+     "id": "IgFpP9QfYbw",
+     "title": "Can We Find The Name Brand?",
+     "published": "2026-11-20T11:00:42+00:00",
+     "short": false
+    },
+    {
      "id": "nrNPMqfApIU",
      "title": "What was that??",
      "published": "2026-11-19T18:00:04+00:00",
@@ -1144,12 +1150,6 @@
      "title": "Nice save Link",
      "published": "2026-11-10T18:00:06+00:00",
      "short": true
-    },
-    {
-     "id": "w3VthEUSQvM",
-     "title": "We Got Prostate Exams Together",
-     "published": "2026-11-10T11:00:39+00:00",
-     "short": false
     }
    ]
   },
