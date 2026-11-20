@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:05:58+00:00",
+ "updated": "2026-11-20T19:10:28+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "Ye0kAhmBnIs",
+     "title": "They’re stealing my book again.",
+     "published": "2026-11-20T16:50:59+00:00",
+     "short": true
+    },
+    {
      "id": "jZSe6yBOEu0",
      "title": "Reminder: even the “progressives” have no idea what it means to be part of a human family",
      "published": "2026-11-20T00:15:50+00:00",
@@ -375,12 +381,6 @@
      "id": "d4w51-5CCXU",
      "title": "Men vs. Fertility",
      "published": "2026-11-13T17:52:52+00:00",
-     "short": true
-    },
-    {
-     "id": "kQF7JVl8LNE",
-     "title": "Staring at the Bog Witch…",
-     "published": "2026-11-13T01:29:57+00:00",
      "short": true
     }
    ]
@@ -872,7 +872,7 @@
     {
      "id": "FdXhvu8rBp0",
      "title": "Got a Cruise Question? Let's Chat!",
-     "published": "2026-11-20T10:59:23+00:00",
+     "published": "2026-11-20T18:05:01+00:00",
      "short": false
     },
     {
@@ -966,6 +966,18 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "EtYcGz_WRTg",
+     "title": "Why DO YOU CURSE",
+     "published": "2026-11-20T17:28:16+00:00",
+     "short": true
+    },
+    {
+     "id": "hk9wTQAWhFY",
+     "title": "Hate Being on Camera? This Is Your Biggest Opportunity in 2027",
+     "published": "2026-11-20T17:16:15+00:00",
+     "short": false
+    },
+    {
      "id": "m34rQHDNhqQ",
      "title": "Being a batter person is more important than having money!",
      "published": "2026-11-19T23:00:30+00:00",
@@ -1042,18 +1054,6 @@
      "title": "If only people realized this...",
      "published": "2026-11-15T17:07:58+00:00",
      "short": true
-    },
-    {
-     "id": "4C1D4tgbUK0",
-     "title": "This is so real",
-     "published": "2026-11-15T01:45:28+00:00",
-     "short": true
-    },
-    {
-     "id": "v927d5r1t1w",
-     "title": "Everything takes longer than you think",
-     "published": "2026-11-14T22:45:15+00:00",
-     "short": true
     }
    ]
   },
@@ -1061,6 +1061,12 @@
    "id": "UC4PooiX37Pld1T8J5SYT-SQ",
    "title": "Good Mythical Morning",
    "videos": [
+    {
+     "id": "-dpjBf0CFyg",
+     "title": "Hey, man! 🧍‍♂️👋",
+     "published": "2026-11-20T18:00:10+00:00",
+     "short": true
+    },
     {
      "id": "IgFpP9QfYbw",
      "title": "Can We Find The Name Brand?",
@@ -1144,12 +1150,6 @@
      "title": "Mixing Every Soup Together",
      "published": "2026-11-11T11:00:39+00:00",
      "short": false
-    },
-    {
-     "id": "Za4oKKVgIyM",
-     "title": "Nice save Link",
-     "published": "2026-11-10T18:00:06+00:00",
-     "short": true
     }
    ]
   },
@@ -1830,6 +1830,12 @@
    "title": "StarTalk",
    "videos": [
     {
+     "id": "EvYZBZftUZo",
+     "title": "We just wanna talk outside for a bit Robert Pattinson 🤨",
+     "published": "2026-11-20T17:06:57+00:00",
+     "short": true
+    },
+    {
      "id": "gk2ZXNpT-BI",
      "title": "Could Black Holes Hold the Key to Reality? @jannalevinastro tells us more",
      "published": "2026-11-19T19:24:53+00:00",
@@ -1912,12 +1918,6 @@
      "title": "Multiverses, In Theory… with Janna Levin",
      "published": "2026-10-29T16:00:07+00:00",
      "short": false
-    },
-    {
-     "id": "zTEA3khW_0w",
-     "title": "StarTalk is 6 MILLION Strong! 🚀",
-     "published": "2026-10-29T15:00:37+00:00",
-     "short": true
     }
    ]
   },
@@ -1925,6 +1925,12 @@
    "id": "UCKSVUHI9rbbkXhvAXK-2uxA",
    "title": "Supercar Blondie",
    "videos": [
+    {
+     "id": "DxIfnTPKIT0",
+     "title": "I can count 5 quirky features in the new Mission S from Porsche 😍",
+     "published": "2026-11-20T18:24:38+00:00",
+     "short": true
+    },
     {
      "id": "iLawmE5lGY8",
      "title": "Massive Helicopter Saw!",
@@ -2007,12 +2013,6 @@
      "id": "9qx0m49Pk2M",
      "title": "This is on EVERY fathers Christmas list.. 🎄",
      "published": "2026-10-30T14:00:35+00:00",
-     "short": true
-    },
-    {
-     "id": "sfTmaBKeOa8",
-     "title": "The Fiat Multiplay Has A Built In Seat For Your Dog! 🐕",
-     "published": "2026-10-29T13:05:26+00:00",
      "short": true
     }
    ]
