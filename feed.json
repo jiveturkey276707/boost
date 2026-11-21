@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:05:50+00:00",
+ "updated": "2026-11-21T15:54:36+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -102,6 +102,12 @@
    "title": "Alton Brown",
    "videos": [
     {
+     "id": "ZgnSZPrByQY",
+     "title": "Alton Brown Cooks Food | Episode 46: GBC",
+     "published": "2026-11-21T14:00:26+00:00",
+     "short": false
+    },
+    {
      "id": "-CzeKNZ343E",
      "title": "It's almost time...",
      "published": "2026-11-19T19:20:30+00:00",
@@ -184,12 +190,6 @@
      "title": "Alton Brown Cooks Food | Episode 33: Kentucky Fried Mint",
      "published": "2026-07-18T13:00:04+00:00",
      "short": false
-    },
-    {
-     "id": "xurpEW92IGw",
-     "title": "Alton Brown Cooks Food | Episode 32: Shell Game",
-     "published": "2026-07-11T13:00:06+00:00",
-     "short": false
     }
    ]
   },
@@ -197,6 +197,12 @@
    "id": "UCJHA_jMfCvEnv-3kRjTCQXw",
    "title": "Binging with Babish",
    "videos": [
+    {
+     "id": "kUs2IM8keVo",
+     "title": "All of Thanksgiving in One Perfect Package | With Babish",
+     "published": "2026-11-21T14:00:24+00:00",
+     "short": false
+    },
     {
      "id": "2k2EJc5mjmc",
      "title": "Binging with Babish Live Stream",
@@ -280,12 +286,6 @@
      "title": "Popcorn: reimagined",
      "published": "2026-07-24T19:00:23+00:00",
      "short": true
-    },
-    {
-     "id": "QAQA08ll34Q",
-     "title": "The ultimate summer fruit salad!",
-     "published": "2026-07-22T19:00:01+00:00",
-     "short": true
     }
    ]
   },
@@ -293,6 +293,18 @@
    "id": "UCFNcY_a-jIigMo1DAjKqEfQ",
    "title": "Farming While Beige",
    "videos": [
+    {
+     "id": "HpEHS8meZA0",
+     "title": "Short: Using SNAP to move food markets…",
+     "published": "2026-11-21T14:58:25+00:00",
+     "short": true
+    },
+    {
+     "id": "wCSLimoI-kA",
+     "title": "Using SNAP to change the food system?",
+     "published": "2026-11-21T14:53:03+00:00",
+     "short": false
+    },
     {
      "id": "Ye0kAhmBnIs",
      "title": "They’re stealing my book again.",
@@ -370,18 +382,6 @@
      "title": "More Horse Meat Conspiracies",
      "published": "2026-11-15T02:53:02+00:00",
      "short": false
-    },
-    {
-     "id": "GZ_SxWuzaCI",
-     "title": "Men need to teach other men how to handle rejection and how to move like grownups.",
-     "published": "2026-11-14T15:31:18+00:00",
-     "short": true
-    },
-    {
-     "id": "d4w51-5CCXU",
-     "title": "Men vs. Fertility",
-     "published": "2026-11-13T17:52:52+00:00",
-     "short": true
     }
    ]
   },
@@ -1734,6 +1734,12 @@
    "title": "Sorted Food",
    "videos": [
     {
+     "id": "bJjs6825mP0",
+     "title": "Cheeseburger Taste Test...  Is This Cheese Too Creamy?!",
+     "published": "2026-11-21T15:00:35+00:00",
+     "short": true
+    },
+    {
      "id": "ieH9CdXy-vU",
      "title": "Japanese Food & Gadgets Marathon | Sorted Food",
      "published": "2026-11-21T10:00:17+00:00",
@@ -1815,12 +1821,6 @@
      "id": "5z4TqEFrRYQ",
      "title": "Chef vs Dad Testing Family Kitchen Gadgets",
      "published": "2026-11-09T17:00:08+00:00",
-     "short": false
-    },
-    {
-     "id": "qs9U08mUxIQ",
-     "title": "£10 BUDGET Recipe Relay Challenge | Pass it On",
-     "published": "2026-11-08T17:00:37+00:00",
      "short": false
     }
    ]
