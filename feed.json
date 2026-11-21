@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:56:54+00:00",
+ "updated": "2026-11-21T21:50:43+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -486,6 +486,12 @@
    "title": "carwow",
    "videos": [
     {
+     "id": "6CbvIP75cis",
+     "title": "Audi RS7 Performance vs Tesla Model 3 Performance!",
+     "published": "2026-11-21T19:04:06+00:00",
+     "short": true
+    },
+    {
      "id": "V6duhT0-y30",
      "title": "Corvette ZR1 v Lambo Revuelto v Porsche 911 Turbo S: DRAG RACE",
      "published": "2026-11-21T09:04:37+00:00",
@@ -568,12 +574,6 @@
      "title": "Does Size Matter? 7.4L V8-swap E30 v BMW M2 DRAG RACE",
      "published": "2026-11-12T11:04:37+00:00",
      "short": false
-    },
-    {
-     "id": "nSPdSR8BCEw",
-     "title": "When someone hits your Volvo 💀",
-     "published": "2026-11-11T19:04:06+00:00",
-     "short": true
     }
    ]
   },
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "kBPQ6faoOBQ",
+     "title": "Scion Is BACK in the US... With a Kei Truck?",
+     "published": "2026-11-21T19:00:02+00:00",
+     "short": true
+    },
+    {
      "id": "xWvkrHcmYVI",
      "title": "Audi Nuvolari Pricing Has Been Announced!",
      "published": "2026-11-20T19:00:00+00:00",
@@ -759,12 +765,6 @@
      "id": "J6v3vLiX60o",
      "title": "I Don't Remember A Ferrari Losing Value Like This",
      "published": "2026-11-12T23:00:09+00:00",
-     "short": true
-    },
-    {
-     "id": "9C1J7AK5H9w",
-     "title": "The New 2027 Rivian R1S Is a Huge Step Up",
-     "published": "2026-11-12T19:00:00+00:00",
      "short": true
     }
    ]
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "3dA1aNmTe_c",
+     "title": "Live shopping is HUGE",
+     "published": "2026-11-21T19:48:28+00:00",
+     "short": true
+    },
+    {
      "id": "119xAu_0y9Q",
      "title": "BREAK UP WITH HER!?",
      "published": "2026-11-20T23:00:14+00:00",
@@ -1047,12 +1053,6 @@
      "id": "I7CGIlUVB4U",
      "title": "The last phrase is gold…",
      "published": "2026-11-16T19:17:26+00:00",
-     "short": true
-    },
-    {
-     "id": "U0UFEpXBhiU",
-     "title": "He did NOT expect this answer...",
-     "published": "2026-11-15T20:30:26+00:00",
      "short": true
     }
    ]
