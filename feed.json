@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:56:52+00:00",
+ "updated": "2026-11-21T01:21:44+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -390,6 +390,12 @@
    "title": "Bright Sun Films",
    "videos": [
     {
+     "id": "83VsWil2d_A",
+     "title": "Untouched ABANDONED Radisson Resort",
+     "published": "2026-11-20T22:00:10+00:00",
+     "short": false
+    },
+    {
      "id": "_zEVYgXspNQ",
      "title": "Abandoned - Regency Mall (Georgia)",
      "published": "2026-11-06T22:00:01+00:00",
@@ -471,12 +477,6 @@
      "id": "eKCb8bGnXCg",
      "title": "Abandoned - Fort Rapids Indoor Water Park",
      "published": "2026-04-03T21:00:42+00:00",
-     "short": false
-    },
-    {
-     "id": "V3w1YnzMqIA",
-     "title": "Cancelled - American Heartland Theme Park",
-     "published": "2026-03-20T21:00:36+00:00",
      "short": false
     }
    ]
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "119xAu_0y9Q",
+     "title": "BREAK UP WITH HER!?",
+     "published": "2026-11-20T23:00:14+00:00",
+     "short": true
+    },
+    {
      "id": "EtYcGz_WRTg",
      "title": "Why DO YOU CURSE",
      "published": "2026-11-20T17:28:16+00:00",
@@ -1048,12 +1054,6 @@
      "title": "He did NOT expect this answer...",
      "published": "2026-11-15T20:30:26+00:00",
      "short": true
-    },
-    {
-     "id": "8UCRDVOR3rw",
-     "title": "If only people realized this...",
-     "published": "2026-11-15T17:07:58+00:00",
-     "short": true
     }
    ]
   },
@@ -1061,6 +1061,12 @@
    "id": "UC4PooiX37Pld1T8J5SYT-SQ",
    "title": "Good Mythical Morning",
    "videos": [
+    {
+     "id": "Jn3Lk14NJs8",
+     "title": "Tis the season of giving 🎁 Get tickets to A Very Mythical Holiday Special Tonight!!",
+     "published": "2026-11-20T23:49:29+00:00",
+     "short": true
+    },
     {
      "id": "-dpjBf0CFyg",
      "title": "Hey, man! 🧍‍♂️👋",
@@ -1144,12 +1150,6 @@
      "title": "What was that noise...",
      "published": "2026-11-11T18:00:00+00:00",
      "short": true
-    },
-    {
-     "id": "P7IM235f9Jo",
-     "title": "Mixing Every Soup Together",
-     "published": "2026-11-11T11:00:39+00:00",
-     "short": false
     }
    ]
   },
@@ -1747,7 +1747,7 @@
     },
     {
      "id": "JP7eGw-7xuY",
-     "title": "Hilarious ALDI DUPES vs Original Brands",
+     "title": "Reviewing Hilarious ALDI DUPES vs Original Brands",
      "published": "2026-11-18T17:00:34+00:00",
      "short": false
     },
