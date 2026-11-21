@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:19:51+00:00",
+ "updated": "2026-11-21T09:55:52+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -486,6 +486,12 @@
    "title": "carwow",
    "videos": [
     {
+     "id": "V6duhT0-y30",
+     "title": "Corvette ZR1 v Lambo Revuelto v Porsche 911 Turbo S: DRAG RACE",
+     "published": "2026-11-21T09:04:37+00:00",
+     "short": false
+    },
+    {
      "id": "mCoxbhjGy0g",
      "title": "Koenigsegg Regera vs Koenigsegg Jesko Absolut!",
      "published": "2026-11-20T19:04:19+00:00",
@@ -567,12 +573,6 @@
      "id": "nSPdSR8BCEw",
      "title": "When someone hits your Volvo 💀",
      "published": "2026-11-11T19:04:06+00:00",
-     "short": true
-    },
-    {
-     "id": "XJV1FnyDSU4",
-     "title": "Which car has the best brakes?! 🤔",
-     "published": "2026-11-10T19:04:09+00:00",
      "short": true
     }
    ]
