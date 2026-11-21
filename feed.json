@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:54:36+00:00",
+ "updated": "2026-11-21T18:56:54+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -199,7 +199,7 @@
    "videos": [
     {
      "id": "kUs2IM8keVo",
-     "title": "All of Thanksgiving in One Perfect Package | With Babish",
+     "title": "I Put an Entire Thanksgiving Dinner in a Wellington | With Babish",
      "published": "2026-11-21T14:00:24+00:00",
      "short": false
     },
@@ -1062,6 +1062,12 @@
    "title": "Good Mythical Morning",
    "videos": [
     {
+     "id": "r5ldkByD-vk",
+     "title": "Rhett says a prayer",
+     "published": "2026-11-21T17:00:34+00:00",
+     "short": true
+    },
+    {
      "id": "Jn3Lk14NJs8",
      "title": "Tis the season of giving 🎁 Get tickets to A Very Mythical Holiday Special Tonight!!",
      "published": "2026-11-20T23:49:29+00:00",
@@ -1144,12 +1150,6 @@
      "title": "Pro Chef vs Grandma Taste Test",
      "published": "2026-11-12T11:00:26+00:00",
      "short": false
-    },
-    {
-     "id": "yHrqckpTCTg",
-     "title": "What was that noise...",
-     "published": "2026-11-11T18:00:00+00:00",
-     "short": true
     }
    ]
   },
@@ -1157,6 +1157,12 @@
    "id": "UCsQLTECz1bCA56JIryaw-lA",
    "title": "Jeb Brooks",
    "videos": [
+    {
+     "id": "pR4FskI3sP8",
+     "title": "Who’s REALLY Flying Your Plane? (It's NOT Delta, United or AA)",
+     "published": "2026-11-21T16:00:36+00:00",
+     "short": false
+    },
     {
      "id": "BJ_h9t0y1eU",
      "title": "The TRUTH About PREMIUM ECONOMY (BA vs Virgin)",
@@ -1240,12 +1246,6 @@
      "title": "FIRST CLASS on AMERICA’S NEWEST LUXURY TRAIN",
      "published": "2026-04-25T15:00:49+00:00",
      "short": false
-    },
-    {
-     "id": "93MuWrPiJ28",
-     "title": "1,000,000 Subs GOLD PLAY BUTTON Unboxing",
-     "published": "2026-04-20T14:41:06+00:00",
-     "short": true
     }
    ]
   },
@@ -1830,6 +1830,18 @@
    "title": "StarTalk",
    "videos": [
     {
+     "id": "IeKj3a6tNs4",
+     "title": "The Longevity Playbook with Rhonda Patrick",
+     "published": "2026-11-21T16:00:26+00:00",
+     "short": false
+    },
+    {
+     "id": "Zjf3yD_-eKA",
+     "title": "How Do Black Holes Evaporate? @jannalevinastro explains!",
+     "published": "2026-11-21T15:46:32+00:00",
+     "short": true
+    },
+    {
      "id": "EvYZBZftUZo",
      "title": "We just wanna talk outside for a bit Robert Pattinson 🤨",
      "published": "2026-11-20T17:06:57+00:00",
@@ -1906,18 +1918,6 @@
      "title": "Could there be more than one universe?",
      "published": "2026-11-04T16:00:08+00:00",
      "short": true
-    },
-    {
-     "id": "8xGf-_fOW4w",
-     "title": "Could another Earth exist? 🌌",
-     "published": "2026-11-03T17:00:08+00:00",
-     "short": true
-    },
-    {
-     "id": "bDJ7wuHtk0c",
-     "title": "Multiverses, In Theory… with Janna Levin",
-     "published": "2026-10-29T16:00:07+00:00",
-     "short": false
     }
    ]
   },
@@ -1925,6 +1925,12 @@
    "id": "UCKSVUHI9rbbkXhvAXK-2uxA",
    "title": "Supercar Blondie",
    "videos": [
+    {
+     "id": "DdButavmnhM",
+     "title": "Would You Try This Homemade Cable Cart?! 😳",
+     "published": "2026-11-21T17:00:24+00:00",
+     "short": true
+    },
     {
      "id": "fRY7FSlXZM0",
      "title": "Worlds thinnest car? 🤯",
@@ -2007,12 +2013,6 @@
      "id": "wimWfpWe_sg",
      "title": "The Halloween update on TESLA means business! 😱",
      "published": "2026-10-31T17:00:39+00:00",
-     "short": true
-    },
-    {
-     "id": "rD10nYJJ84E",
-     "title": "The SCARIEST Halloween prank 😱💀👻",
-     "published": "2026-10-31T11:30:33+00:00",
      "short": true
     }
    ]
