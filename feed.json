@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:57:55+00:00",
+ "updated": "2026-11-22T21:52:38+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -486,6 +486,12 @@
    "title": "carwow",
    "videos": [
     {
+     "id": "_Wa3D0shn0E",
+     "title": "Ferrari Purosangue vs Lamborghini Urus Performante! 😮🔥",
+     "published": "2026-11-22T19:04:14+00:00",
+     "short": true
+    },
+    {
      "id": "6CbvIP75cis",
      "title": "Audi RS7 Performance vs Tesla Model 3 Performance!",
      "published": "2026-11-21T19:04:06+00:00",
@@ -568,12 +574,6 @@
      "title": "Who knew the Nissan Micra was this quick!",
      "published": "2026-11-12T19:04:23+00:00",
      "short": true
-    },
-    {
-     "id": "cOt42JZ5mu8",
-     "title": "Does Size Matter? 7.4L V8-swap E30 v BMW M2 DRAG RACE",
-     "published": "2026-11-12T11:04:37+00:00",
-     "short": false
     }
    ]
   },
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "7d2mAhe8x0s",
+     "title": "What Would Happen if Chinese Cars Were Sold Here?",
+     "published": "2026-11-22T19:00:09+00:00",
+     "short": true
+    },
+    {
      "id": "kBPQ6faoOBQ",
      "title": "Scion Is BACK in the US... With a Kei Truck?",
      "published": "2026-11-21T19:00:02+00:00",
@@ -760,12 +766,6 @@
      "title": "Hoovie’s Garage Joins! World’s Fastest Car Is Chinese! Cybertruck Dying! THIS CAR POD! EP137",
      "published": "2026-11-13T14:55:13+00:00",
      "short": false
-    },
-    {
-     "id": "J6v3vLiX60o",
-     "title": "I Don't Remember A Ferrari Losing Value Like This",
-     "published": "2026-11-12T23:00:09+00:00",
-     "short": true
     }
    ]
   },
@@ -1734,6 +1734,12 @@
    "title": "Sorted Food",
    "videos": [
     {
+     "id": "KUPGtJwH2BY",
+     "title": "Bad Taste - The spinning table of delight and horror is back!",
+     "published": "2026-11-22T20:00:17+00:00",
+     "short": true
+    },
+    {
      "id": "oHqrp3GKiIk",
      "title": "5 Dishes, 1 is Sabotaged. Hide the Pain! | Sorted Food",
      "published": "2026-11-22T17:00:34+00:00",
@@ -1815,12 +1821,6 @@
      "id": "CPFtTPbwNz8",
      "title": "Chef Creates a Menu From the FUTURE!",
      "published": "2026-11-13T17:00:10+00:00",
-     "short": false
-    },
-    {
-     "id": "2sSmypaNka4",
-     "title": "New Ingredients Drop Every 2 Minutes... Chefs Must Use Them",
-     "published": "2026-11-11T18:04:17+00:00",
      "short": false
     }
    ]
@@ -2118,6 +2118,12 @@
    "title": "Trek Trendy",
    "videos": [
     {
+     "id": "irjFHm_9ewg",
+     "title": "I Tried the World's Most Expensive Sleeper Train",
+     "published": "2026-11-22T20:19:32+00:00",
+     "short": false
+    },
+    {
      "id": "LC8BzEpyAlc",
      "title": "First Class from Alaska to Hawaii by Ship",
      "published": "2026-11-08T21:57:49+00:00",
@@ -2199,12 +2205,6 @@
      "id": "GBR9VZT-32I",
      "title": "First Class on America’s Best Sleeper Train",
      "published": "2026-02-01T20:39:33+00:00",
-     "short": false
-    },
-    {
-     "id": "aOqhja5Pa7c",
-     "title": "I Tried Japan’s Most Luxurious Sleeper Train",
-     "published": "2026-01-04T20:22:11+00:00",
      "short": false
     }
    ]
