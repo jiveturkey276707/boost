@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:55:44+00:00",
+ "updated": "2026-11-22T13:04:09+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "qLNZMnJa_Sc",
+     "title": "He tried warning us in 2008",
+     "published": "2026-11-22T10:52:18+00:00",
+     "short": true
+    },
+    {
      "id": "3dA1aNmTe_c",
      "title": "Live shopping is HUGE",
      "published": "2026-11-21T19:48:28+00:00",
@@ -1047,12 +1053,6 @@
      "id": "HFzjU_Mua7Y",
      "title": "I wish more people realized this",
      "published": "2026-11-17T16:41:29+00:00",
-     "short": true
-    },
-    {
-     "id": "I7CGIlUVB4U",
-     "title": "The last phrase is gold…",
-     "published": "2026-11-16T19:17:26+00:00",
      "short": true
     }
    ]
@@ -1638,6 +1638,12 @@
    "title": "Skote Outdoors",
    "videos": [
     {
+     "id": "j824-MWHP5k",
+     "title": "Showing the Next Generation How We Live Off-Grid",
+     "published": "2026-11-22T12:30:35+00:00",
+     "short": false
+    },
+    {
      "id": "ezyGdfuUkeI",
      "title": "Hillbilly Engineering a Double Wall on Our 100-Year-Old House",
      "published": "2026-11-08T12:30:34+00:00",
@@ -1719,12 +1725,6 @@
      "id": "F8F2R52xgYI",
      "title": "Live From Skote Fest",
      "published": "2026-08-30T02:23:12+00:00",
-     "short": false
-    },
-    {
-     "id": "nOfbLlvkxhI",
-     "title": "Live from Skote Fest #1",
-     "published": "2026-08-29T18:58:47+00:00",
      "short": false
     }
    ]
@@ -1926,6 +1926,12 @@
    "title": "Supercar Blondie",
    "videos": [
     {
+     "id": "srJXQyim-tQ",
+     "title": "This or a Jet ski? 😂",
+     "published": "2026-11-22T10:00:30+00:00",
+     "short": true
+    },
+    {
      "id": "DdButavmnhM",
      "title": "Would You Try This Homemade Cable Cart?! 😳",
      "published": "2026-11-21T17:00:24+00:00",
@@ -2007,12 +2013,6 @@
      "id": "Eq6PjuHaNiM",
      "title": "Why buy a house when you can have this! 😍",
      "published": "2026-11-05T16:02:57+00:00",
-     "short": true
-    },
-    {
-     "id": "wimWfpWe_sg",
-     "title": "The Halloween update on TESLA means business! 😱",
-     "published": "2026-10-31T17:00:39+00:00",
      "short": true
     }
    ]
