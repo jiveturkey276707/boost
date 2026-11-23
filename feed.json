@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:30:22+00:00",
+ "updated": "2026-11-23T16:17:59+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -1254,6 +1254,12 @@
    "title": "Joe Scott",
    "videos": [
     {
+     "id": "rg1vYC3h7Sk",
+     "title": "Roger Patterson Faked It. I’m Sorry.",
+     "published": "2026-11-23T15:35:06+00:00",
+     "short": false
+    },
+    {
      "id": "QSafxMhuyt8",
      "title": "People Are Super Weird About The Moon (And Always Have Been)",
      "published": "2026-11-16T17:03:05+00:00",
@@ -1335,12 +1341,6 @@
      "id": "ac1JdboPirs",
      "title": "THIS Is Why We Don’t Call It “Asperger’s” Anymore",
      "published": "2026-08-17T15:25:06+00:00",
-     "short": false
-    },
-    {
-     "id": "JPS2bAx80rk",
-     "title": "The New “Impossible” Engine",
-     "published": "2026-08-10T15:17:00+00:00",
      "short": false
     }
    ]
@@ -1734,6 +1734,12 @@
    "title": "Sorted Food",
    "videos": [
     {
+     "id": "Yw0t-SKF7OY",
+     "title": "Pyscho Juice Chocolate Lava Cake?! Ft. @WilliamHansonEtiquette",
+     "published": "2026-11-23T15:00:01+00:00",
+     "short": true
+    },
+    {
      "id": "KUPGtJwH2BY",
      "title": "Bad Taste - The spinning table of delight and horror is back!",
      "published": "2026-11-22T20:00:17+00:00",
@@ -1816,12 +1822,6 @@
      "title": "Should we be feeding chickens cannabis?!",
      "published": "2026-11-13T20:00:14+00:00",
      "short": true
-    },
-    {
-     "id": "CPFtTPbwNz8",
-     "title": "Chef Creates a Menu From the FUTURE!",
-     "published": "2026-11-13T17:00:10+00:00",
-     "short": false
     }
    ]
   },
@@ -1926,6 +1926,12 @@
    "title": "Supercar Blondie",
    "videos": [
     {
+     "id": "HF1q5t9jPmE",
+     "title": "You Can't Tailgate This Bike.. 🔥😳",
+     "published": "2026-11-23T15:09:24+00:00",
+     "short": true
+    },
+    {
      "id": "j-s2rY1D3gE",
      "title": "Gas Powered Kids Car! 👀",
      "published": "2026-11-22T17:00:40+00:00",
@@ -2007,12 +2013,6 @@
      "id": "8aer2yCYKUA",
      "title": "How Snow Plows Avoid Marker Polls! 🤯",
      "published": "2026-11-11T13:35:49+00:00",
-     "short": true
-    },
-    {
-     "id": "qU2s8VQ1MHc",
-     "title": "The Yangwang U9X just set a new world record, becoming the worlds fastest car 500km/h (312.66mph) 🔥🤯",
-     "published": "2026-11-06T09:30:50+00:00",
      "short": true
     }
    ]
