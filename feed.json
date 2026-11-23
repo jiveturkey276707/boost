@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:22:14+00:00",
+ "updated": "2026-11-23T13:30:22+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "ShdFvb5MfAc",
+     "title": "Her ex must’ve been a chicken…",
+     "published": "2026-11-23T12:01:10+00:00",
+     "short": true
+    },
+    {
      "id": "c77xusSDVKY",
      "title": "Too fat to fly 😂",
      "published": "2026-11-22T16:04:51+00:00",
@@ -376,12 +382,6 @@
      "title": "Sunday Night - Ask Me Anything",
      "published": "2026-11-16T03:22:38+00:00",
      "short": false
-    },
-    {
-     "id": "9t2Y2aQB4bs",
-     "title": "Being sloppy is not a core personality trait",
-     "published": "2026-11-15T15:25:51+00:00",
-     "short": true
     }
    ]
   },
@@ -1062,6 +1062,12 @@
    "title": "Good Mythical Morning",
    "videos": [
     {
+     "id": "_GQeClqEJHM",
+     "title": "Homemade vs Store-Bought Food Taste Test",
+     "published": "2026-11-23T11:00:35+00:00",
+     "short": false
+    },
+    {
      "id": "r5ldkByD-vk",
      "title": "Rhett says a prayer",
      "published": "2026-11-21T17:00:34+00:00",
@@ -1144,12 +1150,6 @@
      "title": "Let's hear it for Link! 👏👏👏",
      "published": "2026-11-12T18:00:05+00:00",
      "short": true
-    },
-    {
-     "id": "TE7SXqycdLo",
-     "title": "Pro Chef vs Grandma Taste Test",
-     "published": "2026-11-12T11:00:26+00:00",
-     "short": false
     }
    ]
   },
