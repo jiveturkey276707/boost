@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:22:23+00:00",
+ "updated": "2026-11-24T19:09:45+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "H29m6W12VR4",
+     "title": "Turkey Pickup Day!",
+     "published": "2026-11-24T18:28:57+00:00",
+     "short": false
+    },
+    {
      "id": "nOZ9hr8ue5o",
      "title": "We have tallow soaps at long last!",
      "published": "2026-11-23T22:08:51+00:00",
@@ -375,12 +381,6 @@
      "id": "BFKWqY4fv50",
      "title": "The curiously wholesome joy of being rejected by Black women",
      "published": "2026-11-17T02:20:37+00:00",
-     "short": true
-    },
-    {
-     "id": "vvyx9MfgpCM",
-     "title": "Record breaking farm debt (in context)",
-     "published": "2026-11-16T13:50:41+00:00",
      "short": true
     }
    ]
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "CVHP_E5kFQU",
+     "title": "The New 2027 Volkswagen Atlas Is a Huge Improvement",
+     "published": "2026-11-24T16:55:26+00:00",
+     "short": false
+    },
+    {
      "id": "LpxdZ-KRF1I",
      "title": "Tesla CyberCab Pricing Is Here!",
      "published": "2026-11-24T02:00:01+00:00",
@@ -759,12 +765,6 @@
      "id": "Hd15JbTmU-Y",
      "title": "A More Serious Civic Type R Is Coming!",
      "published": "2026-11-14T19:00:32+00:00",
-     "short": true
-    },
-    {
-     "id": "QYpITJRL-zc",
-     "title": "How Can The Ferrari Allocation Game Be Real",
-     "published": "2026-11-13T19:00:26+00:00",
      "short": true
     }
    ]
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "nhkdXqj6GF8",
+     "title": "The most underrated strategy in life is...",
+     "published": "2026-11-24T17:03:52+00:00",
+     "short": true
+    },
+    {
      "id": "HxyXug5Tyvg",
      "title": "Why GaryVee is betting on live shopping",
      "published": "2026-11-23T23:00:36+00:00",
@@ -1048,12 +1054,6 @@
      "title": "Going VIRAL is luck?",
      "published": "2026-11-18T18:02:01+00:00",
      "short": true
-    },
-    {
-     "id": "DqaAdCZuGIw",
-     "title": "Leaders need to understand this",
-     "published": "2026-11-18T16:45:11+00:00",
-     "short": true
     }
    ]
   },
@@ -1061,6 +1061,12 @@
    "id": "UC4PooiX37Pld1T8J5SYT-SQ",
    "title": "Good Mythical Morning",
    "videos": [
+    {
+     "id": "WQfKEjHYkZA",
+     "title": "Brennan Lee Mulligan KNOWS about Putt-Putt ⛳️",
+     "published": "2026-11-24T18:07:18+00:00",
+     "short": true
+    },
     {
      "id": "rkjpUGx-Czw",
      "title": "Game Show Trivia Showdown (ft. Brennan Lee Mulligan)",
@@ -1144,12 +1150,6 @@
      "title": "How do YOU say mayonnaise?",
      "published": "2026-11-13T18:00:06+00:00",
      "short": true
-    },
-    {
-     "id": "6hINHl8oxJw",
-     "title": "Unboxing Personalized Etsy Mystery Boxes",
-     "published": "2026-11-13T11:00:13+00:00",
-     "short": false
     }
    ]
   },
@@ -1446,6 +1446,12 @@
    "title": "Lofi Girl",
    "videos": [
     {
+     "id": "KkgJ34oNdeA",
+     "title": "ouch?? #ouch #turnyourphone #studygram",
+     "published": "2026-11-24T17:07:09+00:00",
+     "short": true
+    },
+    {
      "id": "nx32Ue0AAA0",
      "title": "a rainy night 🌧️ lofi rain for deep focus",
      "published": "2026-11-18T19:00:10+00:00",
@@ -1528,12 +1534,6 @@
      "title": "24/7 deep sleep music 🌌 calm ambient to sleep & dream to",
      "published": "2026-10-29T16:22:10+00:00",
      "short": false
-    },
-    {
-     "id": "FxzX3A2KG6I",
-     "title": "Have you tried Lofi Desk? 📚",
-     "published": "2026-10-29T19:00:15+00:00",
-     "short": true
     }
    ]
   },
@@ -1830,6 +1830,18 @@
    "title": "StarTalk",
    "videos": [
     {
+     "id": "KAEAzH3Nqqs",
+     "title": "Neil’s Favorite Fun Facts: StarTalk Live! @ 92NY",
+     "published": "2026-11-24T18:18:27+00:00",
+     "short": false
+    },
+    {
+     "id": "gyqTLG1Rm2A",
+     "title": "Has Food Science given us an exercise snack hack?",
+     "published": "2026-11-24T17:00:36+00:00",
+     "short": true
+    },
+    {
      "id": "FgDbEHAh-1E",
      "title": "What if scientists are limiting their search for alien life?",
      "published": "2026-11-24T13:00:23+00:00",
@@ -1906,18 +1918,6 @@
      "title": "how does heat travel through solid objects? 🔥",
      "published": "2026-11-08T15:35:16+00:00",
      "short": true
-    },
-    {
-     "id": "4Id5aTlYkHg",
-     "title": "The AI Alignment Problem & Its Solutions, with Aza Raskin",
-     "published": "2026-11-07T16:00:29+00:00",
-     "short": false
-    },
-    {
-     "id": "Xom0I1iQXHM",
-     "title": "It’s Not As Simple As Putting Data Centers in Space",
-     "published": "2026-11-06T00:30:02+00:00",
-     "short": false
     }
    ]
   },
