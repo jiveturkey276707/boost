@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:09:45+00:00",
+ "updated": "2026-11-24T22:07:14+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "z3f-nKyDAQM",
+     "title": "The New 2027 Volkswagen Atlas Is a Huge Improvement",
+     "published": "2026-11-24T19:00:06+00:00",
+     "short": true
+    },
+    {
      "id": "CVHP_E5kFQU",
      "title": "The New 2027 Volkswagen Atlas Is a Huge Improvement",
      "published": "2026-11-24T16:55:26+00:00",
@@ -759,12 +765,6 @@
      "id": "v5c_7pzFImo",
      "title": "Here's My \"Rich Guy Go Fast\" Theory",
      "published": "2026-11-15T19:00:09+00:00",
-     "short": true
-    },
-    {
-     "id": "Hd15JbTmU-Y",
-     "title": "A More Serious Civic Type R Is Coming!",
-     "published": "2026-11-14T19:00:32+00:00",
      "short": true
     }
    ]
