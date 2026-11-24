@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:22:02+00:00",
+ "updated": "2026-11-24T04:09:55+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "LpxdZ-KRF1I",
+     "title": "Tesla CyberCab Pricing Is Here!",
+     "published": "2026-11-24T02:00:01+00:00",
+     "short": true
+    },
+    {
      "id": "7d2mAhe8x0s",
      "title": "What Would Happen if Chinese Cars Were Sold Here?",
      "published": "2026-11-22T19:00:09+00:00",
@@ -760,12 +766,6 @@
      "title": "How Can The Ferrari Allocation Game Be Real",
      "published": "2026-11-13T19:00:26+00:00",
      "short": true
-    },
-    {
-     "id": "zT-CVM5O7X4",
-     "title": "Hoovie’s Garage Joins! World’s Fastest Car Is Chinese! Cybertruck Dying! THIS CAR POD! EP137",
-     "published": "2026-11-13T14:55:13+00:00",
-     "short": false
     }
    ]
   },
