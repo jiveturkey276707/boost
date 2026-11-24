@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:19:51+00:00",
+ "updated": "2026-11-24T13:27:38+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -486,6 +486,12 @@
    "title": "carwow",
    "videos": [
     {
+     "id": "w2TomRu54s8",
+     "title": "Turbo V8 LS-swap Nissan 200SX v BMW M2: DRAG RACE",
+     "published": "2026-11-24T11:04:18+00:00",
+     "short": false
+    },
+    {
      "id": "2Jmn4ynE14U",
      "title": "Towing Capacity: 180 tonnes?! 🤯",
      "published": "2026-11-23T19:04:20+00:00",
@@ -568,12 +574,6 @@
      "title": "Corvette ZR1X v Ferrari SF90: DRAG RACE",
      "published": "2026-11-14T09:04:12+00:00",
      "short": false
-    },
-    {
-     "id": "bwiugEMbFDo",
-     "title": "They just ended the Mercedes vs BMW debate...",
-     "published": "2026-11-13T19:04:21+00:00",
-     "short": true
     }
    ]
   },
@@ -1062,6 +1062,12 @@
    "title": "Good Mythical Morning",
    "videos": [
     {
+     "id": "rkjpUGx-Czw",
+     "title": "Game Show Trivia Showdown (ft. Brennan Lee Mulligan)",
+     "published": "2026-11-24T11:00:15+00:00",
+     "short": false
+    },
+    {
      "id": "_GQeClqEJHM",
      "title": "Homemade vs Store-Bought Food Taste Test",
      "published": "2026-11-23T11:00:35+00:00",
@@ -1144,12 +1150,6 @@
      "title": "Unboxing Personalized Etsy Mystery Boxes",
      "published": "2026-11-13T11:00:13+00:00",
      "short": false
-    },
-    {
-     "id": "h0JVeqdkWqI",
-     "title": "Let's hear it for Link! 👏👏👏",
-     "published": "2026-11-12T18:00:05+00:00",
-     "short": true
     }
    ]
   },
@@ -1830,6 +1830,12 @@
    "title": "StarTalk",
    "videos": [
     {
+     "id": "FgDbEHAh-1E",
+     "title": "What if scientists are limiting their search for alien life?",
+     "published": "2026-11-24T13:00:23+00:00",
+     "short": true
+    },
+    {
      "id": "21GeSijmc-o",
      "title": "What makes a math problem worth $1,000,000 @3blue1brown ?",
      "published": "2026-11-23T17:00:39+00:00",
@@ -1912,12 +1918,6 @@
      "title": "It’s Not As Simple As Putting Data Centers in Space",
      "published": "2026-11-06T00:30:02+00:00",
      "short": false
-    },
-    {
-     "id": "OykfPFbw9Ms",
-     "title": "What is a Multiverse?",
-     "published": "2026-11-05T16:00:14+00:00",
-     "short": true
     }
    ]
   },
@@ -2022,6 +2022,12 @@
    "title": "TheStraightPipes",
    "videos": [
     {
+     "id": "cCmfUWhxOrY",
+     "title": "CAR OF THE YEAR! 2026 Ford Mustang Dark Horse SC Review",
+     "published": "2026-11-24T13:00:05+00:00",
+     "short": false
+    },
+    {
      "id": "oQrlco3SfxY",
      "title": "WE GOT A MUSCLE ELANTRA AFTER GTA 6!",
      "published": "2026-11-19T17:05:23+00:00",
@@ -2103,12 +2109,6 @@
      "id": "hSHU7lQgSsM",
      "title": "This CAR is LEGAL? In America??",
      "published": "2026-10-08T13:15:30+00:00",
-     "short": false
-    },
-    {
-     "id": "349KswMyA1w",
-     "title": "NEW! 27 VW Atlas Review",
-     "published": "2026-10-06T12:59:11+00:00",
      "short": false
     }
    ]
