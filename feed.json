@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:59:39+00:00",
+ "updated": "2026-11-24T01:22:02+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -204,6 +204,12 @@
      "short": false
     },
     {
+     "id": "PL-I1v6aWgQ",
+     "title": "Searching GTA VI for Food to Recreate",
+     "published": "2026-11-20T05:19:02+00:00",
+     "short": false
+    },
+    {
      "id": "2k2EJc5mjmc",
      "title": "Binging with Babish Live Stream",
      "published": "2026-11-19T21:09:25+00:00",
@@ -280,12 +286,6 @@
      "title": "I Made EVERY Salsa",
      "published": "2026-07-25T14:30:35+00:00",
      "short": false
-    },
-    {
-     "id": "zVorYnJjmrQ",
-     "title": "Popcorn: reimagined",
-     "published": "2026-07-24T19:00:23+00:00",
-     "short": true
     }
    ]
   },
@@ -293,6 +293,12 @@
    "id": "UCFNcY_a-jIigMo1DAjKqEfQ",
    "title": "Farming While Beige",
    "videos": [
+    {
+     "id": "nOZ9hr8ue5o",
+     "title": "We have tallow soaps at long last!",
+     "published": "2026-11-23T22:08:51+00:00",
+     "short": true
+    },
     {
      "id": "ShdFvb5MfAc",
      "title": "Her ex must’ve been a chicken…",
@@ -376,12 +382,6 @@
      "title": "Record breaking farm debt (in context)",
      "published": "2026-11-16T13:50:41+00:00",
      "short": true
-    },
-    {
-     "id": "CEXmFp57dfU",
-     "title": "Sunday Night - Ask Me Anything",
-     "published": "2026-11-16T03:22:38+00:00",
-     "short": false
     }
    ]
   },
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "HxyXug5Tyvg",
+     "title": "Why GaryVee is betting on live shopping",
+     "published": "2026-11-23T23:00:36+00:00",
+     "short": true
+    },
+    {
      "id": "B1YWN8Q4OuA",
      "title": "What Gary would post on Facebook",
      "published": "2026-11-23T17:45:18+00:00",
@@ -1047,12 +1053,6 @@
      "id": "DqaAdCZuGIw",
      "title": "Leaders need to understand this",
      "published": "2026-11-18T16:45:11+00:00",
-     "short": true
-    },
-    {
-     "id": "Pzfmwn7ZqI4",
-     "title": "How do you eliminate that outside noise",
-     "published": "2026-11-18T11:00:30+00:00",
      "short": true
     }
    ]
@@ -1735,7 +1735,7 @@
    "videos": [
     {
      "id": "rQK9VF6M4XU",
-     "title": "Chef Tests 3 Turkey Cooking Gadgets | Sorted Food",
+     "title": "Chef Tests 3 Turkey Cooking Gadgets",
      "published": "2026-11-23T17:00:19+00:00",
      "short": false
     },
