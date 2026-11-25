@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:07:14+00:00",
+ "updated": "2026-11-25T01:27:15+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "mRnpvXR2iZ4",
+     "title": "You’re being scammed by yolk color",
+     "published": "2026-11-24T23:41:02+00:00",
+     "short": true
+    },
+    {
      "id": "H29m6W12VR4",
      "title": "Turkey Pickup Day!",
      "published": "2026-11-24T18:28:57+00:00",
@@ -375,12 +381,6 @@
      "id": "Fhto3pox6D0",
      "title": "When politicians forget to be specific 😂",
      "published": "2026-11-17T14:44:23+00:00",
-     "short": true
-    },
-    {
-     "id": "BFKWqY4fv50",
-     "title": "The curiously wholesome joy of being rejected by Black women",
-     "published": "2026-11-17T02:20:37+00:00",
      "short": true
     }
    ]
@@ -1069,7 +1069,7 @@
     },
     {
      "id": "rkjpUGx-Czw",
-     "title": "Game Show Trivia Showdown (ft. Brennan Lee Mulligan)",
+     "title": "Can We Beat a Game Show Champion at Trivia? (Ft. Brennan Lee Mulligan)",
      "published": "2026-11-24T11:00:15+00:00",
      "short": false
     },
