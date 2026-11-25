@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:33:49+00:00",
+ "updated": "2026-11-25T16:19:27+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "VdkbWUNyzKs",
+     "title": "Making social media pay",
+     "published": "2026-11-25T14:19:02+00:00",
+     "short": true
+    },
+    {
      "id": "mRnpvXR2iZ4",
      "title": "You’re being scammed by yolk color",
      "published": "2026-11-24T23:41:02+00:00",
@@ -375,12 +381,6 @@
      "id": "EjWNJ1cgy3o",
      "title": "A rave review of my book!",
      "published": "2026-11-18T02:24:32+00:00",
-     "short": true
-    },
-    {
-     "id": "Fhto3pox6D0",
-     "title": "When politicians forget to be specific 😂",
-     "published": "2026-11-17T14:44:23+00:00",
      "short": true
     }
    ]
@@ -1926,6 +1926,12 @@
    "title": "Supercar Blondie",
    "videos": [
     {
+     "id": "fZgEzDiR2qE",
+     "title": "1950'S Convertibles Were A Work Of Art! 😍",
+     "published": "2026-11-25T15:16:34+00:00",
+     "short": true
+    },
+    {
      "id": "Z1R2y6iqNic",
      "title": "Imagine Ice Fishing In This! 😍",
      "published": "2026-11-23T18:00:26+00:00",
@@ -2007,12 +2013,6 @@
      "id": "1b-EmHCWqYU",
      "title": "ChatGPT can hitch your trailer now! 🤯",
      "published": "2026-11-16T18:00:30+00:00",
-     "short": true
-    },
-    {
-     "id": "_6En3gLm7lI",
-     "title": "Quadbikes aren't supposed to do this! 🤯",
-     "published": "2026-11-16T09:26:57+00:00",
      "short": true
     }
    ]
