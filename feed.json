@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:03:22+00:00",
+ "updated": "2026-11-25T22:05:53+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "Hmp7gAdvJ_E",
+     "title": "Waymo Highway Ban In California!",
+     "published": "2026-11-25T19:15:31+00:00",
+     "short": true
+    },
+    {
      "id": "z3f-nKyDAQM",
      "title": "The New 2027 Volkswagen Atlas Is a Huge Improvement",
      "published": "2026-11-24T19:00:06+00:00",
@@ -759,12 +765,6 @@
      "id": "Fgt4IBR5cWk",
      "title": "The Fastest Car In The World Is Chinese",
      "published": "2026-11-16T23:00:06+00:00",
-     "short": true
-    },
-    {
-     "id": "v5c_7pzFImo",
-     "title": "Here's My \"Rich Guy Go Fast\" Theory",
-     "published": "2026-11-15T19:00:09+00:00",
      "short": true
     }
    ]
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "PhdfJ626YUU",
+     "title": "Who are you buying it for",
+     "published": "2026-11-25T20:00:19+00:00",
+     "short": true
+    },
+    {
      "id": "CGynKiDGheo",
      "title": "The world if you fail...",
      "published": "2026-11-25T16:27:08+00:00",
@@ -1047,12 +1053,6 @@
      "id": "fs4QEUw8RDw",
      "title": "Stop dwelling - do the next fucking thing",
      "published": "2026-11-19T17:37:19+00:00",
-     "short": true
-    },
-    {
-     "id": "mChuO4IwvX4",
-     "title": "I never think about going viral....",
-     "published": "2026-11-18T21:00:12+00:00",
      "short": true
     }
    ]
