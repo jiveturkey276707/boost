@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:19:27+00:00",
+ "updated": "2026-11-25T19:03:22+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "CGynKiDGheo",
+     "title": "The world if you fail...",
+     "published": "2026-11-25T16:27:08+00:00",
+     "short": true
+    },
+    {
      "id": "nhkdXqj6GF8",
      "title": "The most underrated strategy in life is...",
      "published": "2026-11-24T17:03:52+00:00",
@@ -1048,12 +1054,6 @@
      "title": "I never think about going viral....",
      "published": "2026-11-18T21:00:12+00:00",
      "short": true
-    },
-    {
-     "id": "YGvyvADfUF8",
-     "title": "Going VIRAL is luck?",
-     "published": "2026-11-18T18:02:01+00:00",
-     "short": true
     }
    ]
   },
@@ -1061,6 +1061,12 @@
    "id": "UC4PooiX37Pld1T8J5SYT-SQ",
    "title": "Good Mythical Morning",
    "videos": [
+    {
+     "id": "LcAesNmq4DE",
+     "title": "We're glad Rhett had someone (something??) 🌳",
+     "published": "2026-11-25T18:00:09+00:00",
+     "short": true
+    },
     {
      "id": "eM7aRH8mAM8",
      "title": "What’s The Best Reheated Fast Food?",
@@ -1144,12 +1150,6 @@
      "title": "Spicy & Sweet Snack Combos Taste Test",
      "published": "2026-11-16T11:00:25+00:00",
      "short": false
-    },
-    {
-     "id": "p1HN33E7nUk",
-     "title": "Just a light warning ⚠️ 🥊",
-     "published": "2026-11-14T17:00:05+00:00",
-     "short": true
     }
    ]
   },
@@ -1734,6 +1734,12 @@
    "title": "Sorted Food",
    "videos": [
     {
+     "id": "QWH6EbBmkNo",
+     "title": "Chef Tries African Street Food for the First Time",
+     "published": "2026-11-25T17:00:24+00:00",
+     "short": false
+    },
+    {
      "id": "fQ_qVDJUuL8",
      "title": "They Pressed a Prawn... and It EXPLODED",
      "published": "2026-11-24T15:00:32+00:00",
@@ -1816,12 +1822,6 @@
      "title": "Pro Chef Ranks Global Chicken Wings",
      "published": "2026-11-15T17:00:22+00:00",
      "short": false
-    },
-    {
-     "id": "Vye_kiR-mr8",
-     "title": "Did you know you're probably eating seaweed every single day?",
-     "published": "2026-11-14T15:00:29+00:00",
-     "short": true
     }
    ]
   },
@@ -1829,6 +1829,12 @@
    "id": "UCqoAEDirJPjEUFcF2FklnBA",
    "title": "StarTalk",
    "videos": [
+    {
+     "id": "fxn-S1sNnQE",
+     "title": "Your Gut vs. the Milky Way Galaxy",
+     "published": "2026-11-25T18:10:32+00:00",
+     "short": true
+    },
     {
      "id": "KAEAzH3Nqqs",
      "title": "Neil’s Favorite Fun Facts: StarTalk Live! @ 92NY",
@@ -1912,12 +1918,6 @@
      "title": "The New NASA Mission to Find Life in the Universe, with Evgenya Shkolnik",
      "published": "2026-11-10T19:48:39+00:00",
      "short": false
-    },
-    {
-     "id": "tRJjMLOz5zE",
-     "title": "how does heat travel through solid objects? 🔥",
-     "published": "2026-11-08T15:35:16+00:00",
-     "short": true
     }
    ]
   },
