@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:05:53+00:00",
+ "updated": "2026-11-26T01:27:37+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "xrkvbj0G6bA",
+     "title": "Lil Miss Danille still ain’t learned to mind her own business 😂",
+     "published": "2026-11-25T23:01:40+00:00",
+     "short": true
+    },
+    {
      "id": "VdkbWUNyzKs",
      "title": "Making social media pay",
      "published": "2026-11-25T14:19:02+00:00",
@@ -375,12 +381,6 @@
      "id": "aStIAViZuuU",
      "title": "Meat delivery companies are scamming you.",
      "published": "2026-11-18T15:23:53+00:00",
-     "short": true
-    },
-    {
-     "id": "EjWNJ1cgy3o",
-     "title": "A rave review of my book!",
-     "published": "2026-11-18T02:24:32+00:00",
      "short": true
     }
    ]
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "dhJHoJzt2MQ",
+     "title": "How GaryVee turns talks into articles",
+     "published": "2026-11-25T23:15:22+00:00",
+     "short": true
+    },
+    {
      "id": "PhdfJ626YUU",
      "title": "Who are you buying it for",
      "published": "2026-11-25T20:00:19+00:00",
@@ -1047,12 +1053,6 @@
      "id": "W5plGx6vVsU",
      "title": "Best advice for 18 yo",
      "published": "2026-11-19T20:00:23+00:00",
-     "short": true
-    },
-    {
-     "id": "fs4QEUw8RDw",
-     "title": "Stop dwelling - do the next fucking thing",
-     "published": "2026-11-19T17:37:19+00:00",
      "short": true
     }
    ]
@@ -1765,7 +1765,7 @@
     },
     {
      "id": "oHqrp3GKiIk",
-     "title": "5 Dishes, 1 is Sabotaged. Hide the Pain! | Sorted Food",
+     "title": "5 Identical Dishes, But 1 is Sabotaged",
      "published": "2026-11-22T17:00:34+00:00",
      "short": false
     },
