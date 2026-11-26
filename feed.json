@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:16:35+00:00",
+ "updated": "2026-11-26T19:10:04+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "qQ2pnpVyb8I",
+     "title": "The 2027 BMW X5 Feels Like the Future",
+     "published": "2026-11-26T16:55:24+00:00",
+     "short": false
+    },
+    {
      "id": "Hmp7gAdvJ_E",
      "title": "Waymo Highway Ban In California!",
      "published": "2026-11-25T19:15:31+00:00",
@@ -760,12 +766,6 @@
      "title": "The 2027 BMW M3 CS Handschalter Is the Coolest New BMW in Years",
      "published": "2026-11-17T16:55:30+00:00",
      "short": false
-    },
-    {
-     "id": "Fgt4IBR5cWk",
-     "title": "The Fastest Car In The World Is Chinese",
-     "published": "2026-11-16T23:00:06+00:00",
-     "short": true
     }
    ]
   },
@@ -1062,6 +1062,12 @@
    "title": "Good Mythical Morning",
    "videos": [
     {
+     "id": "Ufs-VcbeoXk",
+     "title": "It'll just be Rhett and the garlic bread...don't call 🍞❤️",
+     "published": "2026-11-26T18:00:05+00:00",
+     "short": true
+    },
+    {
      "id": "qxia121_S-M",
      "title": "Name The Iconic GMM Moment (Game)",
      "published": "2026-11-26T11:00:24+00:00",
@@ -1144,12 +1150,6 @@
      "title": "We Got Ripped Off By AI Slop Products",
      "published": "2026-11-17T11:00:29+00:00",
      "short": false
-    },
-    {
-     "id": "oQp_j8Ua4R4",
-     "title": "We're being spied on! 👀",
-     "published": "2026-11-16T18:00:06+00:00",
-     "short": true
     }
    ]
   },
