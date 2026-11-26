@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:31:52+00:00",
+ "updated": "2026-11-26T16:16:35+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "4E29vKiHfhY",
+     "title": "Use your writing to get leads",
+     "published": "2026-11-26T15:53:57+00:00",
+     "short": true
+    },
+    {
      "id": "dhJHoJzt2MQ",
      "title": "How GaryVee turns talks into articles",
      "published": "2026-11-25T23:15:22+00:00",
@@ -1047,12 +1053,6 @@
      "id": "m34rQHDNhqQ",
      "title": "Being a batter person is more important than having money!",
      "published": "2026-11-19T23:00:30+00:00",
-     "short": true
-    },
-    {
-     "id": "W5plGx6vVsU",
-     "title": "Best advice for 18 yo",
-     "published": "2026-11-19T20:00:23+00:00",
      "short": true
     }
    ]
@@ -1734,6 +1734,12 @@
    "title": "Sorted Food",
    "videos": [
     {
+     "id": "mf8TkqR5U2U",
+     "title": "We feed Phil Wang Hidden Mealworms!",
+     "published": "2026-11-26T15:00:05+00:00",
+     "short": true
+    },
+    {
      "id": "QWH6EbBmkNo",
      "title": "Chef Tries African Street Food for the First Time",
      "published": "2026-11-25T17:00:24+00:00",
@@ -1816,12 +1822,6 @@
      "title": "Would you eat a crop with a toxic past?",
      "published": "2026-11-16T15:00:30+00:00",
      "short": true
-    },
-    {
-     "id": "UBocj0Vdtlk",
-     "title": "Pro Chef Ranks Global Chicken Wings",
-     "published": "2026-11-15T17:00:22+00:00",
-     "short": false
     }
    ]
   },
