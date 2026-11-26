@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:10:04+00:00",
+ "updated": "2026-11-26T22:04:01+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "4hyt89IQvj4",
+     "title": "Happy Thanksgiving!",
+     "published": "2026-11-26T20:30:01+00:00",
+     "short": true
+    },
+    {
      "id": "LpspzRc658w",
      "title": "Thanksgiving Throwback: Wild Turkey vs. Feral Hens",
      "published": "2026-11-26T12:17:24+00:00",
@@ -375,12 +381,6 @@
      "id": "_sEOcy_38yM",
      "title": "The new KFC ad got people shook 😂",
      "published": "2026-11-19T16:20:01+00:00",
-     "short": true
-    },
-    {
-     "id": "5haPz23Seic",
-     "title": "Highway poultry chaos",
-     "published": "2026-11-19T02:32:18+00:00",
      "short": true
     }
    ]
@@ -486,6 +486,12 @@
    "title": "carwow",
    "videos": [
     {
+     "id": "HjiVbfGerKk",
+     "title": "Who makes the best supercar, America or Italy?!",
+     "published": "2026-11-26T19:04:04+00:00",
+     "short": true
+    },
+    {
      "id": "sspnJPlS7mo",
      "title": "I Specced the Most Expensive Aston Martin",
      "published": "2026-11-26T12:07:46+00:00",
@@ -567,12 +573,6 @@
      "id": "2AOjlgb4GEs",
      "title": "How well do you know Škoda? 🤔",
      "published": "2026-11-16T19:04:17+00:00",
-     "short": true
-    },
-    {
-     "id": "FYPWmwkCzAs",
-     "title": "Tuned BMW M4 Competition vs Mclaren 750S?! 😱🔥",
-     "published": "2026-11-15T19:04:20+00:00",
      "short": true
     }
    ]
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "BHs3dSvXE1g",
+     "title": "The 2027 X5 Is Here And It Feels Like The Future",
+     "published": "2026-11-26T19:00:11+00:00",
+     "short": true
+    },
+    {
      "id": "qQ2pnpVyb8I",
      "title": "The 2027 BMW X5 Feels Like the Future",
      "published": "2026-11-26T16:55:24+00:00",
@@ -760,12 +766,6 @@
      "title": "The 2027 BMW M3 CS Handschalter Is the Coolest New BMW in Years",
      "published": "2026-11-17T19:00:33+00:00",
      "short": true
-    },
-    {
-     "id": "qBTa8xBMlSs",
-     "title": "The 2027 BMW M3 CS Handschalter Is the Coolest New BMW in Years",
-     "published": "2026-11-17T16:55:30+00:00",
-     "short": false
     }
    ]
   },
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "cxqZ1sYLjzQ",
+     "title": "He changed her life with 3 words",
+     "published": "2026-11-26T19:15:22+00:00",
+     "short": true
+    },
+    {
      "id": "4E29vKiHfhY",
      "title": "Use your writing to get leads",
      "published": "2026-11-26T15:53:57+00:00",
@@ -1048,12 +1054,6 @@
      "title": "Hate Being on Camera? This Is Your Biggest Opportunity in 2027",
      "published": "2026-11-20T17:16:15+00:00",
      "short": false
-    },
-    {
-     "id": "m34rQHDNhqQ",
-     "title": "Being a batter person is more important than having money!",
-     "published": "2026-11-19T23:00:30+00:00",
-     "short": true
     }
    ]
   },
@@ -1446,6 +1446,12 @@
    "title": "Lofi Girl",
    "videos": [
     {
+     "id": "8PpNbDUlix0",
+     "title": "share your perfect book + location combo 👇#booktube #reading #readingbook",
+     "published": "2026-11-26T21:24:03+00:00",
+     "short": true
+    },
+    {
      "id": "KkgJ34oNdeA",
      "title": "ouch?? #ouch #turnyourphone #studygram",
      "published": "2026-11-24T17:07:09+00:00",
@@ -1528,12 +1534,6 @@
      "title": "i'm just playing my part in setting up the halloween mood 😼 #halloween #spookyseason #cat",
      "published": "2026-10-30T19:00:27+00:00",
      "short": true
-    },
-    {
-     "id": "SzXRVyrazYs",
-     "title": "24/7 deep sleep music 🌌 calm ambient to sleep & dream to",
-     "published": "2026-10-29T16:22:10+00:00",
-     "short": false
     }
    ]
   },
