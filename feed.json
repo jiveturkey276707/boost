@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:27:01+00:00",
+ "updated": "2026-11-27T16:14:59+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "oH0XbcXrPwo",
+     "title": "Ferrari Ditches Hybrid for Challenge Stradale Return! Best Enthusiast Sedans? THIS CAR POD! EP139",
+     "published": "2026-11-27T14:55:16+00:00",
+     "short": false
+    },
+    {
      "id": "fpaFM8ocaGI",
      "title": "REO Announces Pricing and Models!",
      "published": "2026-11-26T23:00:04+00:00",
@@ -760,12 +766,6 @@
      "title": "New 2027 Lamborghini Temerario Spyder: First Full Tour!",
      "published": "2026-11-19T04:00:19+00:00",
      "short": false
-    },
-    {
-     "id": "Ank4WzxE_HU",
-     "title": "The Cybertruck Has Been Cancelled!",
-     "published": "2026-11-18T19:00:37+00:00",
-     "short": true
     }
    ]
   },
@@ -966,6 +966,18 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "SqtuAT7SlII",
+     "title": "If you feel like you're losing, watch this",
+     "published": "2026-11-27T14:03:39+00:00",
+     "short": true
+    },
+    {
+     "id": "-lMZ1CHH6-4",
+     "title": "The Inevitable End of Social Media Is Here...",
+     "published": "2026-11-27T13:30:22+00:00",
+     "short": false
+    },
+    {
      "id": "_ny5-OHT6Qw",
      "title": "These 3 words changed her life",
      "published": "2026-11-27T00:00:11+00:00",
@@ -1041,18 +1053,6 @@
      "id": "3dA1aNmTe_c",
      "title": "Live shopping is HUGE",
      "published": "2026-11-21T19:48:28+00:00",
-     "short": true
-    },
-    {
-     "id": "119xAu_0y9Q",
-     "title": "BREAK UP WITH HER!?",
-     "published": "2026-11-20T23:00:14+00:00",
-     "short": true
-    },
-    {
-     "id": "EtYcGz_WRTg",
-     "title": "Why DO YOU CURSE",
-     "published": "2026-11-20T17:28:16+00:00",
      "short": true
     }
    ]
