@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:14:59+00:00",
+ "updated": "2026-11-27T19:08:28+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -294,6 +294,12 @@
    "title": "Farming While Beige",
    "videos": [
     {
+     "id": "W21Sy1eix_I",
+     "title": "Eggs in the yiddies, tho?",
+     "published": "2026-11-27T17:16:37+00:00",
+     "short": true
+    },
+    {
      "id": "4hyt89IQvj4",
      "title": "Happy Thanksgiving!",
      "published": "2026-11-26T20:30:01+00:00",
@@ -375,12 +381,6 @@
      "id": "LzyFJKxWq6k",
      "title": "None of my childless friends are like this… because they aren’t children themselves 😂",
      "published": "2026-11-19T22:05:39+00:00",
-     "short": true
-    },
-    {
-     "id": "_sEOcy_38yM",
-     "title": "The new KFC ad got people shook 😂",
-     "published": "2026-11-19T16:20:01+00:00",
      "short": true
     }
    ]
@@ -486,6 +486,12 @@
    "title": "carwow",
    "videos": [
     {
+     "id": "SXePOWR6B88",
+     "title": "Lamborghini Huracan Sterrato vs BMW M4 CS! 🔥😱",
+     "published": "2026-11-27T19:04:24+00:00",
+     "short": true
+    },
+    {
      "id": "HjiVbfGerKk",
      "title": "Who makes the best supercar, America or Italy?!",
      "published": "2026-11-26T19:04:04+00:00",
@@ -568,12 +574,6 @@
      "title": "New Audi RS5 v RS6 GT V8: DRAG RACE",
      "published": "2026-11-17T11:04:03+00:00",
      "short": false
-    },
-    {
-     "id": "2AOjlgb4GEs",
-     "title": "How well do you know Škoda? 🤔",
-     "published": "2026-11-16T19:04:17+00:00",
-     "short": true
     }
    ]
   },
@@ -678,6 +678,12 @@
    "title": "Doug DeMuro",
    "videos": [
     {
+     "id": "KIUQ0Rw58NA",
+     "title": "I Rank SL Generations From Best To Worst!",
+     "published": "2026-11-27T19:00:03+00:00",
+     "short": true
+    },
+    {
      "id": "oH0XbcXrPwo",
      "title": "Ferrari Ditches Hybrid for Challenge Stradale Return! Best Enthusiast Sedans? THIS CAR POD! EP139",
      "published": "2026-11-27T14:55:16+00:00",
@@ -760,12 +766,6 @@
      "title": "First Full Tour of The All New Temerario Spyder!",
      "published": "2026-11-19T06:00:35+00:00",
      "short": true
-    },
-    {
-     "id": "nNeaIamUY34",
-     "title": "New 2027 Lamborghini Temerario Spyder: First Full Tour!",
-     "published": "2026-11-19T04:00:19+00:00",
-     "short": false
     }
    ]
   },
@@ -872,7 +872,7 @@
     {
      "id": "MQm203m8Llc",
      "title": "1000 Cruises Booked (at my Agency)!!! - LIVE With Emma Cruises",
-     "published": "2026-11-27T10:59:30+00:00",
+     "published": "2026-11-27T18:03:27+00:00",
      "short": false
     },
     {
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "xee2IdXcKtA",
+     "title": "Is it easy to make $1M?",
+     "published": "2026-11-27T17:00:34+00:00",
+     "short": true
+    },
+    {
      "id": "SqtuAT7SlII",
      "title": "If you feel like you're losing, watch this",
      "published": "2026-11-27T14:03:39+00:00",
@@ -1048,12 +1054,6 @@
      "title": "He tried warning us in 2008",
      "published": "2026-11-22T10:52:18+00:00",
      "short": true
-    },
-    {
-     "id": "3dA1aNmTe_c",
-     "title": "Live shopping is HUGE",
-     "published": "2026-11-21T19:48:28+00:00",
-     "short": true
     }
    ]
   },
@@ -1061,6 +1061,12 @@
    "id": "UC4PooiX37Pld1T8J5SYT-SQ",
    "title": "Good Mythical Morning",
    "videos": [
+    {
+     "id": "IaG0G3mqqKQ",
+     "title": "We had to be sure",
+     "published": "2026-11-27T18:00:30+00:00",
+     "short": true
+    },
     {
      "id": "eyhMA24vJio",
      "title": "We Tried EVERY Flavored Almond",
@@ -1143,12 +1149,6 @@
      "id": "x6c1Y1gQcRQ",
      "title": "Unboxing Other People's Lost Mail",
      "published": "2026-11-19T11:00:15+00:00",
-     "short": false
-    },
-    {
-     "id": "mPKr_rc80eM",
-     "title": "Blind Hot Dog Taste Test",
-     "published": "2026-11-18T11:00:26+00:00",
      "short": false
     }
    ]
@@ -1734,6 +1734,12 @@
    "title": "Sorted Food",
    "videos": [
     {
+     "id": "kUiuYmrBUT4",
+     "title": "Chef Judges EVERYDAY MEALS (Marathon)",
+     "published": "2026-11-27T17:00:10+00:00",
+     "short": false
+    },
+    {
      "id": "mf8TkqR5U2U",
      "title": "We feed Phil Wang Hidden Mealworms!",
      "published": "2026-11-26T15:00:05+00:00",
@@ -1816,12 +1822,6 @@
      "title": "Can Bizarre 90s Kitchen Gadgets Handle Modern Cooking?",
      "published": "2026-11-16T17:00:31+00:00",
      "short": false
-    },
-    {
-     "id": "eF1_173PzYA",
-     "title": "Would you eat a crop with a toxic past?",
-     "published": "2026-11-16T15:00:30+00:00",
-     "short": true
     }
    ]
   },
