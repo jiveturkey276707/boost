@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:08:28+00:00",
+ "updated": "2026-11-27T22:05:48+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -966,6 +966,12 @@
    "title": "GaryVee",
    "videos": [
     {
+     "id": "qKqtrMZP8wA",
+     "title": "I wish I'd heard this sooner",
+     "published": "2026-11-27T21:30:32+00:00",
+     "short": true
+    },
+    {
      "id": "xee2IdXcKtA",
      "title": "Is it easy to make $1M?",
      "published": "2026-11-27T17:00:34+00:00",
@@ -1047,12 +1053,6 @@
      "id": "lC-OZT57E94",
      "title": "Bro really said that in 2008...",
      "published": "2026-11-22T17:00:00+00:00",
-     "short": true
-    },
-    {
-     "id": "qLNZMnJa_Sc",
-     "title": "He tried warning us in 2008",
-     "published": "2026-11-22T10:52:18+00:00",
      "short": true
     }
    ]
