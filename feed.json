@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:17:36+00:00",
+ "updated": "2026-11-27T13:27:01+00:00",
  "channels": {
   "AllTheSmoke": {
    "id": "UC3A45obTvPvyaGdfeC07lyw",
@@ -870,6 +870,12 @@
    "title": "Emma Cruises",
    "videos": [
     {
+     "id": "MQm203m8Llc",
+     "title": "1000 Cruises Booked (at my Agency)!!! - LIVE With Emma Cruises",
+     "published": "2026-11-27T10:59:30+00:00",
+     "short": false
+    },
+    {
      "id": "OWs9DxzedC8",
      "title": "I Took a Cruise That Changed COMPLETELY 6 Days Before Departure",
      "published": "2026-11-24T15:53:56+00:00",
@@ -952,12 +958,6 @@
      "title": "1388 x Thank You! 😁👏🏼",
      "published": "2026-09-14T10:37:21+00:00",
      "short": true
-    },
-    {
-     "id": "cQT5NJWAKQY",
-     "title": "I've Just Disembarked Valiant Lady!",
-     "published": "2026-09-11T17:04:26+00:00",
-     "short": false
     }
    ]
   },
@@ -1062,6 +1062,12 @@
    "title": "Good Mythical Morning",
    "videos": [
     {
+     "id": "eyhMA24vJio",
+     "title": "We Tried EVERY Flavored Almond",
+     "published": "2026-11-27T11:00:21+00:00",
+     "short": false
+    },
+    {
      "id": "Ufs-VcbeoXk",
      "title": "It'll just be Rhett and the garlic bread...don't call 🍞❤️",
      "published": "2026-11-26T18:00:05+00:00",
@@ -1143,12 +1149,6 @@
      "id": "mPKr_rc80eM",
      "title": "Blind Hot Dog Taste Test",
      "published": "2026-11-18T11:00:26+00:00",
-     "short": false
-    },
-    {
-     "id": "AImg2s07qqk",
-     "title": "We Got Ripped Off By AI Slop Products",
-     "published": "2026-11-17T11:00:29+00:00",
      "short": false
     }
    ]
@@ -1926,6 +1926,12 @@
    "title": "Supercar Blondie",
    "videos": [
     {
+     "id": "Y2ff9zgFlqQ",
+     "title": "How Roads are made! 😍",
+     "published": "2026-11-27T13:00:35+00:00",
+     "short": true
+    },
+    {
      "id": "fZgEzDiR2qE",
      "title": "1950'S Convertibles Were A Work Of Art! 😍",
      "published": "2026-11-25T15:16:34+00:00",
@@ -2008,12 +2014,6 @@
      "title": "VintageModern combines classic styling with modern safety 😍",
      "published": "2026-11-17T18:00:09+00:00",
      "short": true
-    },
-    {
-     "id": "1b-EmHCWqYU",
-     "title": "ChatGPT can hitch your trailer now! 🤯",
-     "published": "2026-11-16T18:00:30+00:00",
-     "short": true
     }
    ]
   },
@@ -2021,6 +2021,12 @@
    "id": "UC86SBFIAgnYL3ll2ZDgmsuA",
    "title": "TheStraightPipes",
    "videos": [
+    {
+     "id": "mEnsbm3tec4",
+     "title": "The Neue Klasse 2027 BMW 7 Series Review",
+     "published": "2026-11-27T13:00:22+00:00",
+     "short": false
+    },
     {
      "id": "cCmfUWhxOrY",
      "title": "CAR OF THE YEAR! 2026 Ford Mustang Dark Horse SC Review",
@@ -2103,12 +2109,6 @@
      "id": "HaJpNIuEQkM",
      "title": "2027 BMW M5 Wagon Review",
      "published": "2026-10-14T12:57:19+00:00",
-     "short": false
-    },
-    {
-     "id": "hSHU7lQgSsM",
-     "title": "This CAR is LEGAL? In America??",
-     "published": "2026-10-08T13:15:30+00:00",
      "short": false
     }
    ]
